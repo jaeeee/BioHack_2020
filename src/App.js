@@ -30,7 +30,7 @@ export class App extends Component {
       //     </Switch>
       //   </Router>
       // );
-      <div style={{ height: "300px", position: "relative" }}>
+      <div style={{ height: "900px", position: "relative" }}>
         <Layout fixedHeader>
           <Header
             title={
