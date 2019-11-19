@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import '../App.css';
+import Virus from "../images/virus.png";
+import CheeringVirus from "../images/cheeringvirus.png"
+
 export class About extends Component {
   render() {
     return (
@@ -17,16 +20,16 @@ export class About extends Component {
                     and collaborate, attend workshops to learn about new technologies, and network with industry partners.
                   </p>
               </div>
-              <div className="col-md">
-
+              <div className="col-6">
+                  <img src={Virus} className="virus"/>
               </div>
           </div>
         </div>
         <hr></hr>
         <div className="container mt-5 p-5 content-section">
           <div className="row">
-              <div className="col-md">
-                  
+              <div className="col-6">
+                  <img src={CheeringVirus} className="cheeringVirus"/>
               </div>
               <div className="col-md">
                   <h1 className="display-5"><strong>Announcements</strong></h1>
