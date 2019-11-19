@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+.content-section{
+  border-radius: 20px;
+  color: #2f3640;
+}
+
+.content-section p{
+  font-size: 20px;
+  text-align: justify;
+}
