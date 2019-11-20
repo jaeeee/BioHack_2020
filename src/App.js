@@ -41,7 +41,7 @@ export class App extends Component {
             }
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
+              <Link to="/faq">FAQ</Link>
               <Link to="/aboutme">About</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
@@ -49,7 +49,7 @@ export class App extends Component {
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <Link to="/resume">Resume</Link>
+              <Link to="/faq">FAQ</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
