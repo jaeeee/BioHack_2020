@@ -30,7 +30,7 @@ export class App extends Component {
       //     </Switch>
       //   </Router>
       // );
-      <div style={{ height: "900px", position: "relative" }}>
+      <div style={{ height: "100vh", position: "relative" }}>
         <Layout fixedHeader>
           <Header
             title={
@@ -41,6 +41,7 @@ export class App extends Component {
             }
           >
             <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/faq">FAQ</Link>
               <Link to="/aboutme">About</Link>
               <Link to="/projects">Projects</Link>
@@ -49,6 +50,7 @@ export class App extends Component {
           </Header>
           <Drawer title="Title">
             <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/faq">FAQ</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
