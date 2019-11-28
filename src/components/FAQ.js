@@ -8,7 +8,7 @@ export class FAQ extends Component {
     render() {
         return (
           // <div>
-          <div style={{ background: "#93c48b" }}>
+          <div>
             <div className="container mt-5 p-5 content-section">
               <div className="row">
                 <div className="col-md">
