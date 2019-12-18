@@ -25,9 +25,58 @@ body{
   color:"#05386b" !important;
 }
 .section{
-  height: 100vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
+.section p{
+  font-size: 21px;
+}
 h1,h2,h3,h4,h5,p{
   color: #edf5e1;
+}
+
+.icons{
+  font-size: 20px;
+  color: #5cdb95;
+}
+
+.biohack-winners{
+  padding: 30px;
+  border-radius: 20px;
+  background: #05386b;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.biohack-winners p{
+  font-size: 16px;
+}
+
+.biohack-winners img{
+  width: 255px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.contact{
+  padding: 40px;
+  background: #05386b;
+}
+.contact h5{
+  color: #5cdb95;
+}
+
+.contact a{
+  padding: 10px;
+  background: #05386b;
+  border-radius: 50px;
+  color: #5cdb95;
+  font-size: 40px;
+}
+
+.contact a:hover{
+  background: #5cdb95;
+  color: #05386b;
 }
