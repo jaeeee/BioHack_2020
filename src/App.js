@@ -16,6 +16,11 @@ import { BrowserRouter as Router,
 
 import Main from './components/main';
 // import { Link } from 'react-router-dom'
+import ReactDOM from 'react-dom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {fab} from '@fortawesome/free-brands-svg-icons'
+import {faBrain, faAllergies, faCar, faSun, faCloud, faCheck, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faBrain, faAllergies, faCar, faSun, faCloud, faCheck, faEnvelope)
 
 export class App extends Component {
   render() {
