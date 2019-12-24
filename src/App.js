@@ -50,16 +50,16 @@ export class App extends Component {
               <Link to="/faq">FAQ</Link>
               <Link to="/aboutme">About</Link>
               <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              {/* <Link to="/contact">Contact</Link> */}
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Menu">
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/faq">FAQ</Link>
-              <Link to="/aboutme">About Me</Link>
+              <Link to="/aboutme">About</Link>
               <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              {/* <Link to="/contact">Contact</Link> */}
             </Navigation>
           </Drawer>
           <Content>
@@ -72,4 +72,4 @@ export class App extends Component {
   }
 }
 
-export default App
+export default App;
