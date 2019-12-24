@@ -60,7 +60,7 @@ export class FAQ extends Component {
                           <div style={{ background: "#93c48b" }}>
                             <Card.Body>
                               If you are an undergraduate UCR student who is
-                              curious about hackingm then of course! If you do
+                              curious about hacking then of course! If you do
                               not have any programming experience, CS mentors
                               will be around to help. If you are interested in
                               mentoring during this event, you can fill out a
