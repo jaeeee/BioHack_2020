@@ -47,8 +47,8 @@ export class App extends Component {
           >
             <Navigation>
               <Link to="/">Home</Link>
-              <Link to="/faq">FAQ</Link>
               <Link to="/aboutme">About</Link>
+              <Link to="/faq">FAQ</Link>
               <Link to="/projects">Projects</Link>
               {/* <Link to="/contact">Contact</Link> */}
             </Navigation>
@@ -56,9 +56,9 @@ export class App extends Component {
           <Drawer title="Menu">
             <Navigation>
               <Link to="/">Home</Link>
-              <Link to="/faq">FAQ</Link>
               <Link to="/aboutme">About</Link>
               <Link to="/projects">Projects</Link>
+              <Link to="/faq">FAQ</Link>
               {/* <Link to="/contact">Contact</Link> */}
             </Navigation>
           </Drawer>
