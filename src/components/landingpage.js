@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Grid, Cell} from 'react-mdl'
+//import {Grid, Cell} from 'react-mdl'
 import './landingpage.css';
 import ThinkingVirus from '../images/thinkingvirus.png';
 import { Accordion, Card, Button } from 'react-bootstrap';
@@ -11,22 +11,46 @@ import best_hardware_biohack_2019 from "../images/best_hardware_biohack_2019.jpg
 import best_humanitarian_biohack_2019 from "../images/best_humanitarian_biohack_2019.jpg"
 import overall_first_biohack_2019 from "../images/overall_first_biohack_2019.jpg"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSlack } from '@fortawesome/free-brands-svg-icons';
-
+import {FaDna, FaQuestion, FaBrain, FaAllergies, FaCar, FaSun, FaCloud, FaCheck, FaEnvelope, FaFacebook, FaInstagram, FaSlack} from 'react-icons/fa'
+import {MdAnnouncement} from "react-icons/md";
+import {GiPodiumWinner} from "react-icons/gi";
+// The above is a best way to import reac-icons. The library was added to the package.json file
 
 export class Landing extends Component {
     render() {
         return (
           <div className="main-wrapper">
 
+            {/* New Navigation Bar */}
+            <nav className="sticky-top navbar navbar-expand-lg navigation-bar navbar-dark">
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                  <li className="nav-item active">
+                    <a className="nav-link" href="#BioHack"><span className="nav-bar-option">BioHack <FaDna/></span> </a>
+                  </li>
+                  <li className="nav-item active">
+                    <a className="nav-link" href="#Announcements"><span className="nav-bar-option">Announcements <MdAnnouncement/></span></a>
+                  </li>
+                  <li className="nav-item active">
+                    <a className="nav-link" href="#Winners2019"><span className="nav-bar-option">Winners <GiPodiumWinner/></span></a>
+                  </li>
+                  <li className="nav-item active">
+                    <a className="nav-link" href="#FQAs"><span className="nav-bar-option">FAQs <FaQuestion/></span></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            {/* End of new Navigation Bar */}
+
             <div className="container header">
               <h1>WELCOME TO <span style={{color:"#05386b"}}>BIOHACK</span>.</h1>
               <h3>May 16, 2020</h3>
             </div>
 
-            <div className="container">
-                
+            <div className="container BioHack" id = "BioHack">                
               <div className="row section">
                 <div className="col-lg-6">
                   <h1 style={{color:"#05386b"}}>What BioHack is All About</h1>
@@ -45,7 +69,7 @@ export class Landing extends Component {
                 </div>
               </div>
 
-              <div className="row section">
+              <div className="row section" id = "Announcements">
                 <div className="col-lg-6">
                   <img src={CheeringVirus} className="cheeringVirus"/>
                 </div>
@@ -63,12 +87,12 @@ export class Landing extends Component {
     
               {/* BioHack Winners section*/}
 
-              <div className="mt-5 section">
+              <div className="mt-5 section" id = "Winners2019">
                 <h1 className="text-center" style={{color:"#05386b"}}>BioHack 2019 Winners</h1>
                 <div className="row mt-5">
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 className="text-center" style={{color:"#5cdb95"}}><FontAwesomeIcon icon="brain" className="icons" /> Overall 1st Place:<br></br> Remembrall</h4>
+                        <h4 className="text-center" style={{color:"#5cdb95"}}><FaBrain className="icons"/> Overall 1st Place:<br></br> Remembrall</h4>
                         <img src={overall_first_biohack_2019}></img>
                         <p>
                             Remembrall is a companion app that was created for those suffering from Alzheimer's and Dementia.
@@ -79,7 +103,7 @@ export class Landing extends Component {
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 class="text-center" style={{color:"#5cdb95"}}><FontAwesomeIcon icon="allergies" className="icons"/> Best Google Hack:<br></br>Skancare</h4>
+                        <h4 class="text-center" style={{color:"#5cdb95"}}><FaAllergies className="icons"/> Best Google Hack:<br></br>Skancare</h4>
                         <img src={best_google_biohack_2019}></img>
                         <p>
                           Skancare aims to bring awareness to skin ailments by utilizing machine learning to classify skin lesions. 
@@ -90,7 +114,7 @@ export class Landing extends Component {
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 className="text-center" style={{color:"#5cdb95"}}><FontAwesomeIcon icon="sun" className="icons"/> Best Beginner's Hack:<br></br>Sleep-Stone Bridge</h4>
+                        <h4 className="text-center" style={{color:"#5cdb95"}}><FaSun className="icons"/> Best Beginner's Hack:<br></br>Sleep-Stone Bridge</h4>
                         <img src={best_beginner_biohack_2019}></img>
                         <p>
                           Sleep-Stone Bridge is a device that monitors the amount of excess light the user is exposed to. 
@@ -102,7 +126,7 @@ export class Landing extends Component {
                   <div className="col-lg-4">
                     <div className="biohack-winners">
                         <h4 className="text-center" style={{color:"#5cdb95"}}> Best Startup Hack:<br></br>Drowsy Drivers</h4>
-                        <FontAwesomeIcon icon="car" style={{fontSize: "110px", color:"#5cdb95", marginTop:"32px", marginBottom:"32px" }}/> 
+                        <FaCar style={{fontSize: "110px", color:"#5cdb95", marginTop:"32px", marginBottom:"32px" }}/> 
                         <p>
                           The Drowsy Driver’s program detects user awareness by examining images taken of the driver's face.
                           Using MATLAB, the program isolates the driver’s eyes and determines whether the user's eyes are open or closed.
@@ -112,7 +136,7 @@ export class Landing extends Component {
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners ">
-                      <h4 className="text-center" style={{color:"#5cdb95"}}><FontAwesomeIcon icon="check" className="icons"/> Best Hardware Hack:<br></br>EpiTech</h4>
+                      <h4 className="text-center" style={{color:"#5cdb95"}}><FaCheck className="icons"/> Best Hardware Hack:<br></br>EpiTech</h4>
                       <img src={best_hardware_biohack_2019}></img>
                       <p className>
                         EpiTech is a device that monitors skin blemishes to accurately determine the effectiveness of the product you are using.
@@ -122,7 +146,7 @@ export class Landing extends Component {
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 className="text-center" style={{color:"#5cdb95"}}><FontAwesomeIcon icon="cloud" className="icons"/> Best Humitarian Hack:<br></br>Air Quality Index Map</h4>
+                        <h4 className="text-center" style={{color:"#5cdb95"}}><FaCloud className="icons"/> Best Humitarian Hack:<br></br>Air Quality Index Map</h4>
                         <img src={best_humanitarian_biohack_2019}></img>
                         <p className>
                           Air Quality Index Map allows environmentally conscious people to monitor current air quality indices (AQI) in their area. 
@@ -134,7 +158,7 @@ export class Landing extends Component {
               </div>
 
         
-                <div className="row section">
+                <div className="row section" id = "FQAs">
                   <div className="col-6">
                     <img src={ThinkingVirus} className="thinking-virus" />
                   </div>
@@ -334,19 +358,19 @@ export class Landing extends Component {
             <div className="contact">
               <div className="row text-center" >
                 <div className="col-sm-3"> 
-                  <a href="mailto:biohack.ucr@gmail.com"><FontAwesomeIcon icon="envelope"/></a>
+                  <a href="mailto:biohack.ucr@gmail.com"><FaEnvelope /></a>
                   <h5>Contact Us</h5> 
                 </div>
                 <div className="col-sm-3"> 
-                  <a href="https://www.facebook.com/UCRBioHack/"><FontAwesomeIcon icon={['fab', 'facebook']}/></a>
+                  <a href="https://www.facebook.com/UCRBioHack/"><FaFacebook/></a>
                   <h5>Follow Us on Facebook</h5>
                 </div>
                 <div className="col-sm-3"> 
-                  <a href="https://www.instagram.com/biohack_ucr/?hl=en"><FontAwesomeIcon icon={['fab', 'instagram']}/></a>
+                  <a href="https://www.instagram.com/biohack_ucr/?hl=en"><FaInstagram/></a>
                   <h5>Follow Us on Instagram</h5>
                 </div>
                 <div className="col-sm-3"> 
-                  <a href="https://biohack2019.slack.com/"><FontAwesomeIcon icon={['fab', 'slack']}/></a>
+                  <a href="https://biohack2019.slack.com/"><FaSlack /></a>
                   <h5>Join our Slack</h5>
                 </div>
               </div>
