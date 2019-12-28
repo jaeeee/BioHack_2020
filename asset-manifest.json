@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BioHack_2020/static/css/main.2aea92bb.chunk.css",
-    "main.js": "/BioHack_2020/static/js/main.8a3bf150.chunk.js",
-    "main.js.map": "/BioHack_2020/static/js/main.8a3bf150.chunk.js.map",
+    "main.css": "/BioHack_2020/static/css/main.06a982de.chunk.css",
+    "main.js": "/BioHack_2020/static/js/main.bad5dd4c.chunk.js",
+    "main.js.map": "/BioHack_2020/static/js/main.bad5dd4c.chunk.js.map",
     "runtime-main.js": "/BioHack_2020/static/js/runtime-main.ddbe7c69.js",
     "runtime-main.js.map": "/BioHack_2020/static/js/runtime-main.ddbe7c69.js.map",
     "static/css/2.559fd73f.chunk.css": "/BioHack_2020/static/css/2.559fd73f.chunk.css",
-    "static/js/2.a1af4b26.chunk.js": "/BioHack_2020/static/js/2.a1af4b26.chunk.js",
-    "static/js/2.a1af4b26.chunk.js.map": "/BioHack_2020/static/js/2.a1af4b26.chunk.js.map",
+    "static/js/2.c48f551a.chunk.js": "/BioHack_2020/static/js/2.c48f551a.chunk.js",
+    "static/js/2.c48f551a.chunk.js.map": "/BioHack_2020/static/js/2.c48f551a.chunk.js.map",
     "index.html": "/BioHack_2020/index.html",
-    "precache-manifest.87206947126c30205984ed172107a3e4.js": "/BioHack_2020/precache-manifest.87206947126c30205984ed172107a3e4.js",
+    "precache-manifest.45f69e648e13d8a20079100180b5b72c.js": "/BioHack_2020/precache-manifest.45f69e648e13d8a20079100180b5b72c.js",
     "service-worker.js": "/BioHack_2020/service-worker.js",
     "static/css/2.559fd73f.chunk.css.map": "/BioHack_2020/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.2aea92bb.chunk.css.map": "/BioHack_2020/static/css/main.2aea92bb.chunk.css.map",
-    "static/js/2.a1af4b26.chunk.js.LICENSE": "/BioHack_2020/static/js/2.a1af4b26.chunk.js.LICENSE",
+    "static/css/main.06a982de.chunk.css.map": "/BioHack_2020/static/css/main.06a982de.chunk.css.map",
+    "static/js/2.c48f551a.chunk.js.LICENSE": "/BioHack_2020/static/js/2.c48f551a.chunk.js.LICENSE",
     "static/media/best_beginner_biohack_2019.jpg": "/BioHack_2020/static/media/best_beginner_biohack_2019.9fa50ec1.jpg",
     "static/media/best_google_biohack_2019.jpg": "/BioHack_2020/static/media/best_google_biohack_2019.970fbfa9.jpg",
     "static/media/best_hardware_biohack_2019.jpg": "/BioHack_2020/static/media/best_hardware_biohack_2019.4f12b739.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.ddbe7c69.js",
     "static/css/2.559fd73f.chunk.css",
-    "static/js/2.a1af4b26.chunk.js",
-    "static/css/main.2aea92bb.chunk.css",
-    "static/js/main.8a3bf150.chunk.js"
+    "static/js/2.c48f551a.chunk.js",
+    "static/css/main.06a982de.chunk.css",
+    "static/js/main.bad5dd4c.chunk.js"
   ]
 }
