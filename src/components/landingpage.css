@@ -80,3 +80,26 @@ h1,h2,h3,h4,h5,p{
   background: #5cdb95;
   color: #05386b;
 }
+
+.navigation-bar {
+  background-color: #05386b;
+}
+
+.navigation-bar a{
+  margin-right: 10px;
+}
+
+.navigation-bar div{
+  padding: 13px;
+}
+
+.nav-bar-option {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.nav-bar-option:hover {
+  background: #5cdb95;
+  color: #05386b;
+}
