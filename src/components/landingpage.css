@@ -18,8 +18,12 @@ body{
 .header{
   text-align: center;
   vertical-align: middle;
-  margin-top: 100px;
+
   height: 100vh;
+}
+.header h1{
+  margin-top: 200px;
+  font-size: 72pt;
 }
 .section h1{
   color:"#05386b" !important;
@@ -43,13 +47,15 @@ h1,h2,h3,h4,h5,p{
 
 .biohack-winners{
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #05386b;
   text-align: center;
   margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .biohack-winners p{
+  text-align: left;
   font-size: 16px;
 }
 
@@ -57,7 +63,7 @@ h1,h2,h3,h4,h5,p{
   width: 255px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .contact{
@@ -69,6 +75,8 @@ h1,h2,h3,h4,h5,p{
 }
 
 .contact a{
+  height: 25px;
+  width: 25px;
   padding: 10px;
   background: #05386b;
   border-radius: 50px;
@@ -103,3 +111,10 @@ h1,h2,h3,h4,h5,p{
   background: #5cdb95;
   color: #05386b;
 }
+
+@media only screen and (max-width: 800px){
+  .header h1{
+    font-size: 48pt;
+  }
+}
+
