@@ -1,102 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto&display=swap');
 
 body{
-  background-color: #5cdb95;
+  background-color: #fff;
 }
-.main-wrapper{
 
-}
-.main-wrapper h1{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-}
+
 .main-wrapper p{
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
   line-height: 1.5em;
-}
-.header{
-  text-align: center;
-  vertical-align: middle;
-
-  height: 100vh;
-}
-.header h1{
-  margin-top: 200px;
-  font-size: 72pt;
-}
-.section h1{
-  color:"#05386b" !important;
-}
-.section{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  font-size: 14pt;
 }
 
-.section p{
-  font-size: 21px;
-}
-h1,h2,h3,h4,h5,p{
-  color: #edf5e1;
-}
-
-.icons{
-  font-size: 20px;
-  color: #5cdb95;
-}
-
-.biohack-winners{
-  padding: 30px;
-  border-radius: 10px;
-  background: #05386b;
-  text-align: center;
-  margin-bottom: 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.biohack-winners p{
-  text-align: left;
-  font-size: 16px;
-}
-
-.biohack-winners img{
-  width: 255px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-.contact{
-  padding: 40px;
-  background: #05386b;
-}
-.contact h5{
-  color: #5cdb95;
-}
-
-.contact a{
-  height: 25px;
-  width: 25px;
-  padding: 10px;
-  background: #05386b;
-  border-radius: 50px;
-  color: #5cdb95;
-  font-size: 40px;
-}
-
-.contact a:hover{
-  background: #5cdb95;
-  color: #05386b;
-}
 
 .navigation-bar {
-  background-color: #05386b;
+  background-color: #dd6e42;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
 }
-
 .navigation-bar a{
   margin-right: 10px;
-}
 
+}
 .navigation-bar div{
   padding: 13px;
 }
@@ -106,15 +29,106 @@ h1,h2,h3,h4,h5,p{
   padding: 10px;
   border-radius: 50px;
 }
-
 .nav-bar-option:hover {
-  background: #5cdb95;
-  color: #05386b;
+  color: #e2eb98;
+  -o-transition:color 2s ease-out, background 2s ease-in;
+  -ms-transition:color 2s ease-out, background 2s ease-in;
+  -moz-transition:color 2s ease-out, background 2s ease-in;
+  -webkit-transition:color 2s ease-out, background 2s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background 2s ease-in;
 }
+
+
+.hero{
+  text-align: center;
+  vertical-align: middle;
+  height: 100vh;
+}
+.hero h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  margin-top: 200px;
+  font-size: 72pt;
+  text-shadow: 8px 8px #dd6e42;
+}
+
+
+.section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section h1{
+  font-weight: 800 !important;
+  color: #dd6e42 !important;
+  font-size: 48pt;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.biohack-winners{
+  padding: 30px;
+  border-radius: 10px;
+  background: #f7e1da;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+}
+.biohack-winners h4{
+  color: #dd6e42;
+}
+.biohack-winners p{
+  text-align: left;
+  font-size: 12pt;
+}
+.icons{
+  font-size: 20px;
+  color: #dd6e42;
+}
+.biohack-winners img{
+  width: 255px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.cardBody{
+  font-size: 14pt;
+}
+
+
+.contact{
+  padding: 30px;
+  background: #dd6e42;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1), 25px 6px 25px 0px rgba(0, 0, 0, 0.1);
+}
+.contact h5{
+  color: #fff;
+  font-size: 12pt;
+}
+.contact a{
+  color: #fff;
+  font-size: 30px;
+}
+.contact a:hover{
+  color: #e2eb98;
+  -o-transition:color 2s ease-out, background 2s ease-in;
+  -ms-transition:color 2s ease-out, background 2s ease-in;
+  -moz-transition:color 2s ease-out, background 2s ease-in;
+  -webkit-transition:color 2s ease-out, background 2s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background 2s ease-in;
+}
+
 
 @media only screen and (max-width: 800px){
-  .header h1{
+  .hero h1{
     font-size: 48pt;
   }
+  .section h1{
+    font-size: 36pt;
+  }
+  .main-wrapper p{
+    font-size: 12pt;
+  }
 }
-
