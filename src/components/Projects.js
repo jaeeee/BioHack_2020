@@ -44,7 +44,7 @@ export class Projects extends Component {
 
   render() {
     return (
-        <div className="mt-5 p-5" id="Winners2019">
+        <div className="mt-5 p-5 section" id="Winners2019">
           <h1 className="text-center"
             style={{color: "#05386b"}} >
             <GiPodiumWinner/> BioHack 2019 Winners
@@ -86,7 +86,7 @@ export class Projects extends Component {
                 title={" Humitarian Hack:\nAir Quality Index Map"}
                 image={best_humanitarian_biohack_2019}
                 description={" Air Quality Index Map allows environmentally conscious people to monitor current air quality indices (AQI) in their area. The AQI map displays the current air conditions for any location through Google Maps so that users may know the air quality of places they plan to visit."}
-              /> 
+              />
             </SlideView>
           </div>
         </div>
@@ -107,12 +107,12 @@ export default Projects;
 //                     style={
 //                       {
 //                       fontSize: "110px",
-//                       color:"#5cdb95", 
+//                       color:"#5cdb95",
 //                       marginTop:"32px",
 //                       marginBottom:"32px"
 //                       }
 //                     }
-//                   /> 
+//                   />
 //                   />
 //                   <p>
 //                     The Drowsy Driver’s program detects user awareness by

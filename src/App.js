@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Home from "./components/HomePage";
 import Announcements from './components/Announcements';
 import Projects from "./components/Projects";
@@ -55,7 +55,7 @@ export class App extends Component {
             </div>
             {/* Contact Section */}
             {/* Add Sponsors component here? */}
-            <Contact />
+            <Footer />
         </div>
       </HashRouter>
       );

@@ -37,9 +37,9 @@ export class FAQ extends Component {
     }
     render() {
         return (
-            <div className="section" style={{marginTop:160, marginBottom:160}} id="FAQ">
+            <div className="section fadeIn" style={{marginTop:160, marginBottom:160}} id="FAQ">
               <SlideView>
-                  <QuestionAnswer 
+                  <QuestionAnswer
                     question={"What is a hackathon?"}
                     answer={"A hackathon is a weekend-long event that invites curious minds to learn and build something new. You may pick up a project of your choosing to work on during the event to dive into a topic you've been meaning to explore. You also get to meet new friends as you work in a team of up to 4!"}
                     />
