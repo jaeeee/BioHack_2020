@@ -1,70 +1,63 @@
 import React, { Component } from 'react'
-
-//import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import { BrowserRouter as Router,
-   Route,
- //  Switch,
- //  Link,
- //  Redirect
-  } from 'react-router-dom';
-
-import Main from './components/main';
-// import { Switch, Route} from 'react-router-dom';
-// Pages
-// import MainPage from './pages/index';
-// import NotFoundPage from './pages/404';
-// import UsersPage from './pages/users';
-
-//import { Link } from 'react-router-dom'
-//import ReactDOM from 'react-dom'
-import LandingPage from './components/landingpage';
-
+import './App.css';
+import Contact from "./components/Contact";
+import Home from "./components/HomePage";
+import Announcements from './components/Announcements';
+import Projects from "./components/Projects";
+import FQA from "./components/FAQ";
+import About from "./components/About";
+import {FaHome, FaDna, FaQuestion} from 'react-icons/fa'
+import {MdAnnouncement} from "react-icons/md";
+import {GiPodiumWinner} from "react-icons/gi";
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
 
 export class App extends Component {
   render() {
     return (
-        <Router>
-            <Route exact path="" component={LandingPage} />
-            {/* <Route exact path="/404" component={NotFoundPage} />
-            <Route exact path="/users" component={UsersPage} />
-            <Redirect to="/404"/> */}
-        </Router>
-      
-      // <div style={{ height: "100vh", position: "relative" }}>
-      //   <Layout fixedHeader>
-      //     <Header
-      //       title={
-      //         <span>
-      //           <span style={{ color: "#ddd" }}>BioHack / </span>
-      //           <strong>2020</strong>
-      //         </span>
-      //       }
-      //     >
-      //       <Navigation>
-      //         <Link to="/">Home</Link>
-      //         <Link to="/aboutme">About</Link>
-      //         <Link to="/faq">FAQ</Link>
-      //         <Link to="/projects">Projects</Link>
-      //         {/* <Link to="/contact">Contact</Link> */}
-      //       </Navigation>
-      //     </Header>
-      //     <Drawer title="Menu">
-      //       <Navigation>
-      //         <Link to="/">Home</Link>
-      //         <Link to="/aboutme">About</Link>
-      //         <Link to="/projects">Projects</Link>
-      //         <Link to="/faq">FAQ</Link>
-      //         {/* <Link to="/contact">Contact</Link> */}
-      //       </Navigation>
-      //     </Drawer>
-      //     <Content>
-      //       <div className="page-content" />
-      //       <Main />
-      //     </Content>
-      //   </Layout>
-      // </div>
-    );
+      <HashRouter>
+        <div className="main-wrapper">
+            <nav className="sticky-top navbar navbar-expand-lg navigation-bar navbar-dark">
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <NavLink class="nav-link" to="/"><span className="nav-bar-option"><FaHome/> Home</span></NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/about"><span className="nav-bar-option"><FaDna/> BioHack</span></NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/announcements"><span className="nav-bar-option"><MdAnnouncement/> Announcements</span></NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/projects"><span className="nav-bar-option"><GiPodiumWinner/> Winners</span></NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/fqas"><span className="nav-bar-option"><FaQuestion/> FAQs</span></NavLink>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div className="container">
+              <Route exact path="/" component={Home}/>
+              <Route path="/about" component={About}/>
+              <Route path="/announcements" component={Announcements}/>
+              <Route path="/projects" component={Projects}/>
+              <Route path="/fqas" component={FQA}/>
+            </div>
+            {/* Contact Section */}
+            {/* Add Sponsors component here? */}
+            <Contact />
+        </div>
+      </HashRouter>
+      );
+    }
   }
-}
 
-export default App;
+  export default App;
