@@ -9,6 +9,8 @@ import About from "./components/About";
 import {FaHome, FaDna, FaQuestion} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodiumWinner} from "react-icons/gi";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import {
   Route,
   NavLink,

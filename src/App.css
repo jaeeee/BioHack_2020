@@ -57,6 +57,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .biohack-winners {
+  margin: 10px;
   padding: 30px;
   border-radius: 10px;
   background: #05386b;
@@ -72,9 +73,15 @@ h1, h2, h3, h4, h5, p {
 
 .biohack-winners img {
   width: 255px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
+}
+
+.biohack-winners h4 {
+  color: #5cdb95;
 }
 
 .contact {
@@ -155,6 +162,27 @@ h1, h2, h3, h4, h5, p {
   height: 400px;
   width: 400px;
 }
+
+.FQA-card {
+  color: #5cdb95;
+  background-color: #05386b ;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin: 10px;
+  height:400px;
+  /*padding: 50px; */
+}
+
+.FQA-card:hover{
+  color: #05386b;
+  background-color: #5cdb95;
+}
+
+/* .SliderWrapper{
+  width: 100%;
+  padding: 32px;
+} */
 
 @media only screen and (max-width: 800px) {
   .header h1{
