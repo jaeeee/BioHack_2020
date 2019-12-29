@@ -38,22 +38,27 @@ export class Landing extends Component {
                     <a className="nav-link" href="#Winners2019"><span className="nav-bar-option">Winners <GiPodiumWinner/></span></a>
                   </li>
                   <li className="nav-item active">
-                    <a className="nav-link" href="#FQAs"><span className="nav-bar-option">FAQs <FaQuestion/></span></a>
+                    <a className="nav-link" href="#FAQs"><span className="nav-bar-option">FAQs <FaQuestion/></span></a>
                   </li>
                 </ul>
               </div>
             </nav>
             {/* End of new Navigation Bar */}
 
-            <div className="container header">
-              <h1>WELCOME TO <span style={{color:"#05386b"}}>BIOHACK</span>.</h1>
-              <h3>May 16, 2020</h3>
+            {/*Start Hero-section*/}
+            <div className="hero">
+              <h1>WELCOME TO <span style={{color:"#e2eb98"}}>BIOHACK</span>.</h1>
+              <h3>16 MAY 2020</h3>
             </div>
+            {/*End Hero-section*/}
 
-            <div className="container BioHack" id = "BioHack">                
+            {/*Start container for ALL content*/}
+            <div className="container BioHack" id = "BioHack">
+
+            {/*Start About-section*/}
               <div className="row section">
                 <div className="col-lg-6">
-                  <h1 style={{color:"#05386b"}}>What BioHack is All About</h1>
+                  <h1>What BioHack is All About</h1>
                   <p>
                     BioHack is a 12-hour health and medicine-themed hackathon hosted at University of California, Riverside.
                     As a beginner-friendly and multidisciplinary hackathon, BioHack aims to give students the opportunity to create innovatived
@@ -68,13 +73,15 @@ export class Landing extends Component {
                   <img src={Virus} className="virus"/>
                 </div>
               </div>
+              {/*End About-section*/}
 
+              {/*Start Announcements-section*/}
               <div className="row section" id = "Announcements">
                 <div className="col-lg-6">
                   <img src={CheeringVirus} className="cheeringVirus"/>
                 </div>
                 <div className="col-lg-6">
-                  <h1 style={{color:"#05386b"}}>Announcements</h1>
+                  <h1>Announcements</h1>
                   <p>
                     Want to help plan/organize BioHack 2020? Come out to the first BioHack 2020
                     Committee Info Meeting on Wednesday, November 20th, 2019 from 5-6 p.m.
@@ -82,42 +89,40 @@ export class Landing extends Component {
                   </p>
                 </div>
               </div>
-                       
-    
-    
-              {/* BioHack Winners section*/}
+              {/*End Announcements-section*/}
 
+              {/* Start Biohack-winner-section*/}
               <div className="mt-5 section" id = "Winners2019">
-                <h1 className="text-center" style={{color:"#05386b"}}>BioHack 2019 Winners</h1>
+                <h1 className="text-center">BioHack 2019 Winners</h1>
                 <div className="row mt-5">
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 className="text-center" style={{color:"#5cdb95"}}><FaBrain className="icons"/> Overall 1st Place:<br></br> Remembrall</h4>
+                        <h4 className="text-center"><FaBrain className="icons"/> Overall 1st Place:<br></br> Remembrall</h4>
                         <img src={overall_first_biohack_2019}></img>
                         <p>
                             Remembrall is a companion app that was created for those suffering from Alzheimer's and Dementia.
-                            Rememberall helps users remember important details of their life by using real time user entered data. 
+                            Rememberall helps users remember important details of their life by using real time user entered data.
                             The user can input their thoughts, memories, pictures and important information about themselves to aid throughout their daily lives.
                         </p>
                     </div>
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 class="text-center" style={{color:"#5cdb95"}}><FaAllergies className="icons"/> Best Google Hack:<br></br>Skancare</h4>
+                        <h4 class="text-center"><FaAllergies className="icons"/> Best Google Hack:<br></br>Skancare</h4>
                         <img src={best_google_biohack_2019}></img>
                         <p>
-                          Skancare aims to bring awareness to skin ailments by utilizing machine learning to classify skin lesions. 
-                          This program takes a close-up image of the skin and analyzes it to identify the lesion type. 
+                          Skancare aims to bring awareness to skin ailments by utilizing machine learning to classify skin lesions.
+                          This program takes a close-up image of the skin and analyzes it to identify the lesion type.
                           Skancare aims to make lesion diagnoses easier to identify.
                         </p>
                     </div>
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 className="text-center" style={{color:"#5cdb95"}}><FaSun className="icons"/> Best Beginner's Hack:<br></br>Sleep-Stone Bridge</h4>
+                        <h4 className="text-center"><FaSun className="icons"/> Best Beginner's Hack:<br></br>Sleep-Stone Bridge</h4>
                         <img src={best_beginner_biohack_2019}></img>
                         <p>
-                          Sleep-Stone Bridge is a device that monitors the amount of excess light the user is exposed to. 
+                          Sleep-Stone Bridge is a device that monitors the amount of excess light the user is exposed to.
                           Excess light can cause a person’s regular 24-hour Circadian Rhythm to be disrupted and lead health risks such as lack of sleep.
                           This project alerts the user with light sensors during evening hours to lower light levels to preserve the Circadian Rhythm.
                         </p>
@@ -125,8 +130,8 @@ export class Landing extends Component {
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 className="text-center" style={{color:"#5cdb95"}}> Best Startup Hack:<br></br>Drowsy Drivers</h4>
-                        <FaCar style={{fontSize: "110px", color:"#5cdb95", marginTop:"32px", marginBottom:"32px" }}/> 
+                        <h4 className="text-center"> Best Startup Hack:<br></br>Drowsy Drivers</h4>
+                        <FaCar style={{fontSize: "110px", color:"#e2eb98", marginTop:"32px", marginBottom:"32px" }}/>
                         <p>
                           The Drowsy Driver’s program detects user awareness by examining images taken of the driver's face.
                           Using MATLAB, the program isolates the driver’s eyes and determines whether the user's eyes are open or closed.
@@ -136,38 +141,37 @@ export class Landing extends Component {
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners ">
-                      <h4 className="text-center" style={{color:"#5cdb95"}}><FaCheck className="icons"/> Best Hardware Hack:<br></br>EpiTech</h4>
+                      <h4 className="text-center"><FaCheck className="icons"/> Best Hardware Hack:<br></br>EpiTech</h4>
                       <img src={best_hardware_biohack_2019}></img>
                       <p className>
                         EpiTech is a device that monitors skin blemishes to accurately determine the effectiveness of the product you are using.
-                        It utilizes a micro spectrometer and cloud services to deliver real time data to patients and physicians while, determining the effectiveness of your acne treatment. 
+                        It utilizes a micro spectrometer and cloud services to deliver real time data to patients and physicians while, determining the effectiveness of your acne treatment.
                       </p>
                       </div>
                   </div>
                   <div className="col-lg-4">
                     <div className="biohack-winners">
-                        <h4 className="text-center" style={{color:"#5cdb95"}}><FaCloud className="icons"/> Best Humitarian Hack:<br></br>Air Quality Index Map</h4>
+                        <h4 className="text-center"><FaCloud className="icons"/> Best Humitarian Hack:<br></br>Air Quality Index Map</h4>
                         <img src={best_humanitarian_biohack_2019}></img>
                         <p className>
-                          Air Quality Index Map allows environmentally conscious people to monitor current air quality indices (AQI) in their area. 
+                          Air Quality Index Map allows environmentally conscious people to monitor current air quality indices (AQI) in their area.
                           The AQI map displays the current air conditions for any location through Google Maps so that users may know the air quality of places they plan to visit.
                         </p>
                       </div>
                   </div>
                 </div>
               </div>
+              {/* End Biohack-winner-section*/}
 
-        
-                <div className="row section" id = "FQAs">
+              {/* Start FAQ-section*/}
+                <div className="row section" id = "FAQs">
                   <div className="col-6">
                     <img src={ThinkingVirus} className="thinking-virus" />
                   </div>
                   <div className="col-md-6">
-                  <h1 style={{color:"#05386b"}}>FAQs</h1>
-                      {/* <p>  */}
-                      {/* Q: What is a hackathon? */}
+                  <h1>FAQs</h1>
                         <Accordion>
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -177,7 +181,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   A hackathon is a weekend-long event that invites
@@ -192,7 +196,7 @@ export class Landing extends Component {
                             </Accordion.Collapse>
                           </Card>
 
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -202,7 +206,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   If you are an undergraduate UCR student who is
@@ -217,7 +221,7 @@ export class Landing extends Component {
                             </Accordion.Collapse>
                           </Card>
 
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -227,7 +231,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="2">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   No! BioHack encourages students who are curious
@@ -239,7 +243,7 @@ export class Landing extends Component {
                             </Accordion.Collapse>
                           </Card>
 
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -249,7 +253,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="3">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   Applications to participate in BioHack 2019 are
@@ -262,7 +266,7 @@ export class Landing extends Component {
                             </Accordion.Collapse>
                           </Card>
 
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -272,7 +276,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="4">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   Nope! This event is free to all students. We will
@@ -286,7 +290,7 @@ export class Landing extends Component {
                         </Accordion>
 
                         <Accordion>
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -296,7 +300,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="5">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   Yes! Hardware will be provided.
@@ -306,7 +310,7 @@ export class Landing extends Component {
                             </Accordion.Collapse>
                           </Card>
 
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -316,7 +320,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="6">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   Bring a valid student ID for admission, a laptop
@@ -328,7 +332,7 @@ export class Landing extends Component {
                             </Accordion.Collapse>
                           </Card>
 
-                          <Card style={{ background: "#5cdb95" }}>
+                          <Card>
                             <Card.Header>
                               <Accordion.Toggle
                                 as={Button}
@@ -338,7 +342,7 @@ export class Landing extends Component {
                               </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="7">
-                              <div style={{ background: "#5cdb95" }}>
+                              <div className="cardBody">
                                 <Card.Body>
                                 <p>
                                   Since this event is a 12-hour event, sleeping over
@@ -350,28 +354,28 @@ export class Landing extends Component {
                           </Card>
                         </Accordion>
                       </div>
-                    {/* </p> */}
                 </div>
             </div>
+            {/* End FAQ-section*/}
 
             {/*Contact section*/}
             <div className="contact">
               <div className="row text-center" >
-                <div className="col-sm-3"> 
+                <div className="col-sm-3">
                   <a href="mailto:biohack.ucr@gmail.com"><FaEnvelope /></a>
-                  <h5>Contact Us</h5> 
+                  <h5>Contact</h5>
                 </div>
-                <div className="col-sm-3"> 
+                <div className="col-sm-3">
                   <a href="https://www.facebook.com/UCRBioHack/"><FaFacebook/></a>
-                  <h5>Follow Us on Facebook</h5>
+                  <h5>Facebook</h5>
                 </div>
-                <div className="col-sm-3"> 
+                <div className="col-sm-3">
                   <a href="https://www.instagram.com/biohack_ucr/?hl=en"><FaInstagram/></a>
-                  <h5>Follow Us on Instagram</h5>
+                  <h5>Instagram</h5>
                 </div>
-                <div className="col-sm-3"> 
+                <div className="col-sm-3">
                   <a href="https://biohack2019.slack.com/"><FaSlack /></a>
-                  <h5>Join our Slack</h5>
+                  <h5>Slack</h5>
                 </div>
               </div>
             </div>
