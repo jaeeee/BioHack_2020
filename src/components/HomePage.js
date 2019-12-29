@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Home extends Component {
     render() {
         return (
-            <div className="header">
-                <h1>WELCOME TO <span style={{color:"#05386b"}}>BIOHACK</span>.</h1>
-                <h3>May 16, 2020</h3>
+            <div className="hero fadeIn">
+                <h1>WELCOME TO <span style={{color:"#e2eb98"}}>BIOHACK</span>.</h1>
+                <h3>16 MAY 2020</h3>
             </div>
         );
     }
