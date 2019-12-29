@@ -6,6 +6,7 @@ import Announcements from './components/Announcements';
 import Projects from "./components/Projects";
 import FQA from "./components/FAQ";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import {FaHome, FaDna, FaQuestion} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodiumWinner} from "react-icons/gi";
@@ -43,6 +44,9 @@ export class App extends Component {
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/fqas"><span className="nav-bar-option"><FaQuestion/> FAQs</span></NavLink>
                   </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/contact"><span className="nav-bar-option"><FaQuestion/> Contact</span></NavLink>
+                  </li>
                 </ul>
               </div>
             </nav>
@@ -52,6 +56,7 @@ export class App extends Component {
               <Route path="/announcements" component={Announcements}/>
               <Route path="/projects" component={Projects}/>
               <Route path="/fqas" component={FQA}/>
+              <Route path="/contact" component={Contact}/>
             </div>
             {/* Contact Section */}
             {/* Add Sponsors component here? */}

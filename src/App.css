@@ -107,15 +107,13 @@ body{
 
 .contact{
   padding: 30px;
-  background: #dd6e42;
-  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1), 25px 6px 25px 0px rgba(0, 0, 0, 0.1);
 }
 .contact h5{
-  color: #fff;
-  font-size: 12pt;
+  color: #dd6e42;
+  font-size: 14pt;
 }
 .contact a{
-  color: #fff;
+  color: #dd6e42;
   font-size: 30px;
 }
 .contact a:hover{
