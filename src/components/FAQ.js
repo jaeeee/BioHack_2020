@@ -7,7 +7,7 @@ export class FAQ extends Component {
     render() {
         return (
      
-            <div className="faqs section row mt-5 mb-5" id="FAQ">
+            <div className="faqs section row mt-5 mb-5 fadeIn" id="FAQ">
               <div className="col-lg-6">
                 <img src={ThinkingVirus}></img>
               </div>
