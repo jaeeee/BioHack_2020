@@ -72,7 +72,6 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-
 .biohack-winners{
   margin: 10px;
   padding: 30px;
@@ -82,28 +81,79 @@ body{
   margin-bottom: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
 }
+
+.biohack-winners h4{
+  color: #dd6e42;
+}
+
+.biohack-winners p{
+  color: #dd6e42;
+  text-align: left;
+  font-size: 12pt;
+}
+
+.icons-card {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 80px;
+  color: #dd6e42;
+}
+
+.icons-modal{
+  font-size: 30px;
+  text-align: center;
+}
+
+.modal-title{
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Biohack winners modal css */
+.biohack-winners-modal .modal-content{
+  font-size: 18px;
+  background: #f7e1da;
+  color: #dd6e42;
+  padding: 25px 25px 25px 25px;
+}
+
+.biohack-winners-card img{
+  width: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.biohack-winners-card p{
+  color: #282c34;
+}
+
+/* Biohack winners Slide view cards css */
+.biohack-winners {
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #f7e1da;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
 .biohack-winners h4{
   color: #dd6e42;
 }
 .biohack-winners p{
   text-align: left;
   font-size: 12pt;
-}
-.icons{
-  font-size: 20px;
-  color: #dd6e42;
-}
-.biohack-winners img{
-  width: 255px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
+  color: #282c34;
 }
 
 .cardBody{
   font-size: 14pt;
 }
-
 
 .contact{
   padding: 30px;
@@ -178,6 +228,18 @@ body{
   background-color: #5cdb95;
 }
 
+.btn{
+  background-color: #dd6e42 ;
+  color: #ffffff;
+  border: none;
+  
+}
+
+.btn:hover{
+  background-color: #ffffff;
+  color: #dd6e42;
+}
+
 /* .SliderWrapper{
   width: 100%;
   padding: 32px;
@@ -198,6 +260,7 @@ body{
         -o-animation: fadein 1s;
            animation: fadein 1s;
 }
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }

@@ -2,12 +2,20 @@ import React, { Component } from 'react'
 import ThinkingVirus from '../images/thinkingvirus.png';
 import SlideView from './SlideView';
 import QuestionAnswer from './QuestionAnswer';
-import {FaQuestion} from 'react-icons/fa';
 export class FAQ extends Component {
     state = {
       responsiveSettings : [
         {
-          breakpoint: 1300,
+            breakpoint: 400,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+        {
+          breakpoint: 100,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -15,31 +23,13 @@ export class FAQ extends Component {
             dots: true
           }
         },
-        {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              infinite: true,
-              dots: true
-            }
-          },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1,
-            dots: true
-          }
-        },
       ]
     }
     render() {
         return (
-            <div className="section fadeIn" style={{marginTop:160, marginBottom:160}} id="FAQ">
+            <div className="section" style={{marginTop:160, marginBottom:160}} id="FAQ">
               <SlideView>
-                  <QuestionAnswer
+                  <QuestionAnswer 
                     question={"What is a hackathon?"}
                     answer={"A hackathon is a weekend-long event that invites curious minds to learn and build something new. You may pick up a project of your choosing to work on during the event to dive into a topic you've been meaning to explore. You also get to meet new friends as you work in a team of up to 4!"}
                     />
