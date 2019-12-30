@@ -17,6 +17,9 @@ body{
   font-size: 14pt;
 }
 
+.navbar-toggler{
+  background-color: #dd6e42;
+}
 
 .navigation-bar {
   background: #fff;
