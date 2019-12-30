@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import {FaHome, FaDna, FaQuestion} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodiumWinner} from "react-icons/gi";
+import {IoIosContact} from "react-icons/io"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {
@@ -45,11 +46,12 @@ export class App extends Component {
                     <NavLink className="nav-link" to="/fqas"><span className="nav-bar-option"><FaQuestion/> FAQs</span></NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to="/contact"><span className="nav-bar-option"><FaQuestion/> Contact</span></NavLink>
+                    <NavLink className="nav-link" to="/contact"><span className="nav-bar-option"><IoIosContact/> Contact</span></NavLink>
                   </li>
                 </ul>
               </div>
             </nav>
+            <hr></hr>
             <div className="container">
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>
