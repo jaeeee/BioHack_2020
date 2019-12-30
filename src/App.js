@@ -9,7 +9,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import {FaHome, FaDna, FaQuestion} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
-import {GiPodiumWinner} from "react-icons/gi";
+import {GiPodium} from "react-icons/gi";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {
@@ -39,7 +39,7 @@ export class App extends Component {
                     <NavLink className="nav-link" to="/announcements"><span className="nav-bar-option"><MdAnnouncement/> Announcements</span></NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to="/projects"><span className="nav-bar-option"><GiPodiumWinner/> Winners</span></NavLink>
+                    <NavLink className="nav-link" to="/projects"><span className="nav-bar-option"><GiPodium/> Winners</span></NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/fqas"><span className="nav-bar-option"><FaQuestion/> FAQs</span></NavLink>

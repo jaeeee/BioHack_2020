@@ -21,36 +21,37 @@ class WinnerCard extends Component {
         <div>
           <div className="biohack-winners">
             <h4>
-                {this.props.category}{' :'}
+              {this.props.icon2}{" "}
+              {this.props.category}{' :'}
             </h4>
             <h4 className="mt-3">
-                {this.props.projectName}
+              {this.props.projectName}
             </h4>
             <div className="icons-card">
-                {this.props.icon}
+              {this.props.icon1}
             </div>
             <p>
-                {this.props.description.substring(0, 160) + " ..."}  
+              {this.props.description.substring(0, 160) + " ..."}  
             </p>
             <Button className="mt-4 mb-3" variant="light" bsSize="large" onClick={this.handleShow}>
                 Read Full
             </Button>
-        </div>
+          </div>
   
           <Modal className="biohack-winners-modal" show={this.state.show} onHide={this.handleClose}>
             <Modal.Header>
-              <Modal.Title>{this.props.category}</Modal.Title>
+              <Modal.Title>{this.props.icon2}{" "}{this.props.category}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
             <div className="biohack-winners-card">
-                <div className="icons-modal">
-                    {this.props.icon}{" "}
-                    {this.props.projectName}
-                </div>
-                <img src={this.props.image}/>
-                <p>
-                    {this.props.description}  
-                </p>
+              <div className="icons-modal">
+                  {this.props.icon1}{" "}
+                  {this.props.projectName}
+              </div>
+              <img src={this.props.image}/>
+              <p>
+                {this.props.description}  
+              </p>
             </div>
             </Modal.Body>
             <Modal.Footer>
