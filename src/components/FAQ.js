@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import ThinkingVirus from '../images/thinkingvirus.png';
+import BlueVirus from '../images/Icon_Blue.JPG';
+import GreenVirus from '../images/Icon_Green.JPG';
+
 import QuestionAnswer from './QuestionAnswer';
 
 
@@ -8,9 +10,6 @@ export class FAQ extends Component {
         return (
      
             <div className="faqs section row mt-5 mb-5 fadeIn" id="FAQ">
-              <div className="col-lg-6">
-                <img src={ThinkingVirus} alt="Thinking Virus"></img>
-              </div>
               <div className="col-lg-6">
                 <h1 className="text-center mb-5"> FAQ</h1>
                 <QuestionAnswer 
@@ -40,6 +39,10 @@ export class FAQ extends Component {
                 <QuestionAnswer
                   question={"Where do I sleep?"}
                   answer={"Since this event is a 12-hour event, sleeping over will not be necessary and will not be provided."}/>
+              </div>
+              <div className="col-lg-6">
+                  <img src={BlueVirus} className="virus mt-5 ml-5" alt="Thinking Virus"></img>
+                  <img src={GreenVirus} className="virus mt-5 ml-5" alt="Thinking Virus"></img>
               </div>
             </div>
         );
