@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Virus from "../images/virus.png";
+import Virus from "../images/Icon_Surprised.JPG";
 import {FaDna} from 'react-icons/fa'
 
 export class About extends Component {
   render() {
     return (
         <div className="row section fadeIn" id = "BioHack">
-          <div className="col-lg-6">
+          <div className="col">
             <h1><FaDna/> What is BioHack All About?</h1>
             <p className="mt-5">
               BioHack is a 12-hour health and medicine-themed hackathon hosted at University of California, Riverside.
@@ -18,7 +18,7 @@ export class About extends Component {
               and collaborate, attend workshops to learn about new technologies, and network with industry partners.
             </p>
           </div>
-          <div className="col-lg-6">
+          <div className="col">
             <img src={Virus} className="virus" alt="Virus"/>
           </div>
         </div>
