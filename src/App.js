@@ -46,7 +46,7 @@ export class App extends Component {
                 </ul>
               </div>
             </nav>
-            <hr></hr>
+            
             <div className="container">
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>
