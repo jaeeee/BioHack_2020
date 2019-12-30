@@ -5,7 +5,7 @@ import {FaEnvelope, FaFacebook, FaInstagram, FaSlack} from 'react-icons/fa'
 class Contact extends Component {
     render() {
         return (
-            <div className="contact row mb-3">
+            <div className="contact row mb-5">
               <div className="col-sm-3">
                 <a href="mailto:biohack.ucr@gmail.com"><FaEnvelope /></a>
                 <h5>Contact</h5>
