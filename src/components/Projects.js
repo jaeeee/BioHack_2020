@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaBabyCarriage, FaHardHat, FaGoogle, FaBrain, FaAllergies, FaCar, FaSun, FaCloud, FaCheck} from 'react-icons/fa'
+import {FaBabyCarriage, FaHardHat, FaGoogle, FaBrain, FaAllergies, FaSun, FaCloud, FaCheck} from 'react-icons/fa'
 import best_beginner_biohack_2019 from "../images/best_beginner_biohack_2019.jpg";
 import best_google_biohack_2019 from "../images/best_google_biohack_2019.jpg";
 import best_hardware_biohack_2019 from "../images/best_hardware_biohack_2019.jpg";

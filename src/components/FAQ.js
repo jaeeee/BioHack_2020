@@ -9,7 +9,7 @@ export class FAQ extends Component {
      
             <div className="faqs section row mt-5 mb-5 fadeIn" id="FAQ">
               <div className="col-lg-6">
-                <img src={ThinkingVirus}></img>
+                <img src={ThinkingVirus} alt="Thinking Virus"></img>
               </div>
               <div className="col-lg-6">
                 <h1 className="text-center mb-5"> FAQ</h1>

@@ -6,7 +6,6 @@ import Announcements from './components/Announcements';
 import Projects from "./components/Projects";
 import FQA from "./components/FAQ";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import {FaHome, FaDna, FaQuestion} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodium} from "react-icons/gi";
@@ -54,10 +53,7 @@ export class App extends Component {
               <Route path="/announcements" component={Announcements}/>
               <Route path="/projects" component={Projects}/>
               <Route path="/fqas" component={FQA}/>
-              <Route path="/contact" component={Contact}/>
             </div>
-            {/* Contact Section */}
-            {/* Add Sponsors component here? */}
             <Footer />
         </div>
       </HashRouter>

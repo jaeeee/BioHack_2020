@@ -48,7 +48,7 @@ class WinnerCard extends Component {
                   {this.props.icon1}{" "}
                   {this.props.projectName}
               </div>
-              <img src={this.props.image}/>
+              <img src={this.props.image} alt={"BioHack 2019" + this.props.projectNam}/>
               <p>
                 {this.props.description}  
               </p>
