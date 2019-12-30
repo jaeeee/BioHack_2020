@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CheeringVirus from "../images/cheeringvirus.png";
+import CheeringVirus from "../images/Icon_Red.JPG";
 import {MdAnnouncement} from "react-icons/md";
 class Announcements extends Component {
     render() {

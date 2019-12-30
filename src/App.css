@@ -4,8 +4,6 @@
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto&display=swap');
-
 body{
   background-color: #fff;
 }
@@ -148,18 +146,17 @@ body{
 
 .virus {
   height : 500px;
-  width: 650px;
+  width: 500px;
 }
 
 .cheeringVirus {
-  height : 400px;
-  width: 400px;
+  height : 500px;
+  width: 500px;
 }
 
-
 .thinking-virus {
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
 }
 
 .FQA-card {
