@@ -213,6 +213,7 @@ body{
 
 
 .faqs{
+  max-width: 700px;
   color: #f7e1da;
   width: 100%;
   margin-bottom: 5px;
