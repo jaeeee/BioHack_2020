@@ -12,8 +12,12 @@ body{
 
 .main-wrapper p{
   font-family: 'Roboto', sans-serif;
-  line-height: 1.5em;
+  line-height: 2em;
   font-size: 14pt;
+}
+
+.highlight{
+  border-bottom: 5px solid #dd6e42;
 }
 
 .navbar-toggler{
@@ -22,7 +26,7 @@ body{
 }
 
 .navigation-bar {
-  background: #fff;
+  background-color: #fff;
 }
 
 .navigation-bar a {
@@ -201,8 +205,9 @@ body{
 }
 
 .virus {
-  height : 500px;
-  width: 500px;
+  height : 600px;
+  width: 600px;
+  position: sticky;
 }
 
 

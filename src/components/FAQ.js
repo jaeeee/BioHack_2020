@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import BlueVirus from '../images/Icon_Blue.JPG';
-import GreenVirus from '../images/Icon_Green.JPG';
+import BlueVirus from '../images/Icon_Blue.PNG';
 
 import QuestionAnswer from './QuestionAnswer';
 
