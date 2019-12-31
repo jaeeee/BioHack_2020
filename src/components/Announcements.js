@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import CheeringVirus from "../images/Icon_Red.JPG";
+import CheeringVirus from "../images/Icon_Red.PNG";
 import {MdAnnouncement} from "react-icons/md";
 class Announcements extends Component {
     render() {
         return (
             <div className="row section fadeIn" style={{marginTop:150, marginBottom:150}}id = "Announcements">
-                <div className="col-lg-5">
-                  <img src={CheeringVirus} className="cheeringVirus" alt="Cheering Virus"/>
+                <div className="col-md-6">
+                  <img src={CheeringVirus} className="virus" alt="Cheering Virus"/>
                 </div>
-                <div className="col-lg-7 mt-5">
+                <div className="col-md-6">
                   <h1><MdAnnouncement/> Announcements</h1>
                   <p className="mt-5">
-                    Want to help plan/organize BioHack 2020? Come out to the first BioHack 2020
-                    Committee Info Meeting on Wednesday, November 20th, 2019 from 5-6 p.m.
+                    Want to <span className="highlight">help</span> plan/organize BioHack 2020? Come out to the first BioHack 2020 <span className="highlight">Committee Info Meeting</span> on Wednesday, November 20th, 2019 from 5-6 p.m.
                     in Bourns A265! We'd love to have you on board!
                   </p>
                 </div>

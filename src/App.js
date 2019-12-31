@@ -6,7 +6,8 @@ import Announcements from './components/Announcements';
 import Projects from "./components/Projects";
 import FQA from "./components/FAQ";
 import About from "./components/About";
-import {FaHome, FaDna, FaQuestion} from 'react-icons/fa'
+import Sponsors from "./components/Sponsors";
+import {FaHome, FaDna, FaQuestion, FaUserFriends} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodium} from "react-icons/gi";
 import "slick-carousel/slick/slick.css";
@@ -43,16 +44,20 @@ export class App extends Component {
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/fqas"><span className="nav-bar-option"><FaQuestion/> FAQs</span></NavLink>
                   </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/sponsors"><span className="nav-bar-option"><FaUserFriends/> Sponsors</span></NavLink>
+                  </li>
                 </ul>
               </div>
             </nav>
-            <hr></hr>
+
             <div className="container">
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>
               <Route path="/announcements" component={Announcements}/>
               <Route path="/projects" component={Projects}/>
               <Route path="/fqas" component={FQA}/>
+              <Route path="/sponsors" component={Sponsors}/>
             </div>
             <Footer />
         </div>

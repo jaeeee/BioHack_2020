@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
-import BlueVirus from '../images/Icon_Blue.JPG';
-import GreenVirus from '../images/Icon_Green.JPG';
+import BlueVirus from '../images/Icon_Blue.PNG';
 
 import QuestionAnswer from './QuestionAnswer';
 
 
-export class FAQ extends Component { 
+export class FAQ extends Component {
     render() {
-        return (
-     
+        return (  
             <div className="faqs section mt-5 mb-5 fadeIn" id="FAQ">
                 <h1 className="text-center mb-5"> FAQs</h1>
                 <QuestionAnswer 
