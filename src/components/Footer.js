@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import {FaEnvelope, FaFacebook, FaInstagram, FaSlack} from 'react-icons/fa'
+import Contact from "./Contact";
 
 export class Footer extends Component {
   render() {
     return (
         <div className="footer">
-            <p>Built with love by UCR's BioHack Web Development Team.</p>
-            </div>
+          <Contact/>
+          <p>Built with love by UCR's BioHack Web Development Team.</p>
+        </div>
     );
   }
 }

@@ -19,7 +19,7 @@ export class About extends Component {
             </p>
           </div>
           <div className="col">
-            <img src={Virus} className="virus"/>
+            <img src={Virus} className="virus" alt="Virus"/>
           </div>
         </div>
       );

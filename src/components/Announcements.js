@@ -5,10 +5,10 @@ class Announcements extends Component {
     render() {
         return (
             <div className="row section fadeIn" style={{marginTop:150, marginBottom:150}}id = "Announcements">
-                <div className="col-lg-6">
-                  <img src={CheeringVirus} className="cheeringVirus"/>
+                <div className="col-lg-5">
+                  <img src={CheeringVirus} className="cheeringVirus" alt="Cheering Virus"/>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-7 mt-5">
                   <h1><MdAnnouncement/> Announcements</h1>
                   <p className="mt-5">
                     Want to help plan/organize BioHack 2020? Come out to the first BioHack 2020

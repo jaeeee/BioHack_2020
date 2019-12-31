@@ -15,6 +15,9 @@ body{
   font-size: 14pt;
 }
 
+.navbar-toggler{
+  background-color: #dd6e42;
+}
 
 .navigation-bar {
   background: #fff;
@@ -70,7 +73,6 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-
 .biohack-winners{
   margin: 10px;
   padding: 30px;
@@ -80,28 +82,79 @@ body{
   margin-bottom: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
 }
+
+.biohack-winners h4{
+  color: #dd6e42;
+}
+
+.biohack-winners p{
+  color: #dd6e42;
+  text-align: left;
+  font-size: 12pt;
+}
+
+.icons-card {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 80px;
+  color: #dd6e42;
+}
+
+.icons-modal{
+  font-size: 30px;
+  text-align: center;
+}
+
+.modal-title{
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Biohack winners modal css */
+.biohack-winners-modal .modal-content{
+  font-size: 18px;
+  background: #f7e1da;
+  color: #dd6e42;
+  padding: 25px 25px 25px 25px;
+}
+
+.biohack-winners-card img{
+  width: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.biohack-winners-card p{
+  color: #282c34;
+}
+
+/* Biohack winners Slide view cards css */
+.biohack-winners {
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #f7e1da;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
 .biohack-winners h4{
   color: #dd6e42;
 }
 .biohack-winners p{
   text-align: left;
   font-size: 12pt;
-}
-.icons{
-  font-size: 20px;
-  color: #dd6e42;
-}
-.biohack-winners img{
-  width: 255px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
+  color: #282c34;
 }
 
 .cardBody{
   font-size: 14pt;
 }
-
 
 .contact{
   padding: 30px;
@@ -112,7 +165,7 @@ body{
 }
 .contact a{
   color: #dd6e42;
-  font-size: 30px;
+  font-size: 35px;
 }
 .contact a:hover{
   color: #e2eb98;
@@ -159,22 +212,81 @@ body{
   width: 600px;
 }
 
-.FQA-card {
-  color: #5cdb95;
-  background-color: #05386b ;
-  border: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 10px;
+.faqs{
+  max-width: 700px;
+  color: #f7e1da;
+  width: 100%;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+
+.faqs .faq {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #dd6e42;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.faqs .faq .faq-question{
   margin: 10px;
-  height:400px;
-  /*padding: 50px; */
+  font-size: 25px;
+  transition: all 0.3s ease-out;
 }
 
-.FQA-card:hover{
-  color: #05386b;
-  background-color: #5cdb95;
+.faqs .faq .faq-question .faq-arrow{
+  margin-left: 15px;
+  font-size: 25px;
+  transition: ease-out;
 }
 
+.faqs .faq .faq-answer{
+  margin: 10px;
+  font-size: 18px;
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.3s ease-out;
+}
+
+/* When the component is clicked */
+.faqs .faq.open {
+  background-color: #f7e1da;
+  color: #dd6e42;
+}
+
+.faqs .faq.open .faq-question {
+  margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question .faq-arrow {
+  transform: rotate(180deg);
+  transition: ease-out;
+}
+
+.faqs .faq.open .faq-answer {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.btn{
+  background-color: #dd6e42 ;
+  color: #ffffff;
+  border: none;
+  
+}
+
+.btn:hover{
+  background-color: #ffffff;
+  color: #dd6e42;
+}
+
+hr {
+  width: 0 auto;
+  background-color: #dd6e42;
+}
 /* .SliderWrapper{
   width: 100%;
   padding: 32px;
@@ -195,6 +307,7 @@ body{
         -o-animation: fadein 1s;
            animation: fadein 1s;
 }
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
