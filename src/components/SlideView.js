@@ -5,21 +5,21 @@ function Arrow(props) {
     const { className, style, onClick } = props;
     return (
       <button
-        className={className} 
+        className={className}
         style={
-            { ...style, 
+            { ...style,
                 display: "block",
                 background: "#dd6e42",
                 borderRadius: 50,
-                width:23,
-                height:23
-            }   
+                width:25,
+                height:25
+            }
         }
         onClick={onClick}
       />
     );
   }
-  
+
 
 class SlideView extends Component {
     render() {

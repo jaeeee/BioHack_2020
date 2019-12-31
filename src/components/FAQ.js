@@ -5,14 +5,14 @@ import GreenVirus from '../images/Icon_Green.JPG';
 import QuestionAnswer from './QuestionAnswer';
 
 
-export class FAQ extends Component { 
+export class FAQ extends Component {
     render() {
         return (
-     
+
             <div className="faqs section row mt-5 mb-5 fadeIn" id="FAQ">
               <div className="col-lg-6">
                 <h1 className="text-center mb-5"> FAQ</h1>
-                <QuestionAnswer 
+                <QuestionAnswer
                   question={"What is a hackathon?"}
                   answer={"A hackathon is a weekend-long event that invites curious minds to learn and build something new. You may pick up a project of your choosing to work on during the event to dive into a topic you've been meaning to explore. You also get to meet new friends as you work in a team of up to 4!"}
                   />
@@ -41,8 +41,7 @@ export class FAQ extends Component {
                   answer={"Since this event is a 12-hour event, sleeping over will not be necessary and will not be provided."}/>
               </div>
               <div className="col-lg-6">
-                  <img src={BlueVirus} className="virus mt-5 ml-5" alt="Thinking Virus"></img>
-                  <img src={GreenVirus} className="virus mt-5 ml-5" alt="Thinking Virus"></img>
+                  <img src={BlueVirus} className="virus mt-5 ml-5" alt="Blue Virus"></img>
               </div>
             </div>
         );

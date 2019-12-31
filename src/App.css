@@ -6,6 +6,7 @@
 
 body{
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 
@@ -17,6 +18,7 @@ body{
 
 .navbar-toggler{
   background-color: #dd6e42;
+
 }
 
 .navigation-bar {
@@ -51,7 +53,7 @@ body{
 .hero{
   text-align: center;
   vertical-align: middle;
-  height: 40vh;
+  height: 50vh;
 }
 .hero h1{
   font-family: 'Open Sans', sans-serif;
@@ -157,13 +159,16 @@ body{
 }
 
 
-.contact h5{
-  color: #dd6e42;
-  font-size: 14pt;
+.contact {
+  display:inline-block;
+  vertical-align: middle;
 }
 .contact a{
+  padding-left: 10px;
+  padding-right: 10px;
   color: #dd6e42;
   font-size: 35px;
+  text-align: center;
 }
 .contact a:hover{
   color: #e2eb98;
@@ -200,15 +205,7 @@ body{
   width: 500px;
 }
 
-.cheeringVirus {
-  height : 500px;
-  width: 500px;
-}
 
-.thinking-virus {
-  height: 500px;
-  width: 500px;
-}
 
 .faqs{
   color: #f7e1da;
@@ -220,10 +217,10 @@ body{
 
 .faqs .faq {
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 5px;
   background-color: #dd6e42;
   border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 
@@ -238,6 +235,7 @@ body{
   font-size: 25px;
   transition: ease-out;
 }
+
 
 .faqs .faq .faq-answer{
   margin: 10px;
@@ -280,21 +278,14 @@ body{
   color: #dd6e42;
 }
 
-hr {
-  width: 0 auto;
-  background-color: #dd6e42;
-}
-/* .SliderWrapper{
-  width: 100%;
-  padding: 32px;
-} */
-
 
 .footer{
   text-align: center;
-  font-size: 8pt;
+}
+
+.footer p{
+  font-size: 10pt;
   color: grey;
-  padding: 40px;
 }
 
 .fadeIn{
@@ -320,5 +311,9 @@ hr {
   }
   .main-wrapper p{
     font-size: 12pt;
+  }
+  .virus {
+    height : 400px;
+    width: 400px;
   }
 }
