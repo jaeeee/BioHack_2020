@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import BlueVirus from '../images/Icon_Blue.PNG';
+//import BlueVirus from '../images/Icon_Blue.PNG';
 
 import QuestionAnswer from './QuestionAnswer';
 
