@@ -8,7 +8,6 @@ body{
   overflow-x: hidden;
 }
 
-
 .main-wrapper p{
   font-family: 'Roboto', sans-serif;
   line-height: 2em;
@@ -168,7 +167,6 @@ body{
   font-size: 14pt;
 }
 
-
 .contact {
   display:inline-block;
   vertical-align: middle;
@@ -189,7 +187,6 @@ body{
   /* ...and now override with proper CSS property */
   transition:color .2s ease-out, background 2s ease-in;
 }
-
 
 .App-logo {
   height: 40vmin;
@@ -215,8 +212,6 @@ body{
   width: 600px;
   position: sticky;
 }
-
-
 
 .faqs{
   max-width: 100%;
@@ -247,7 +242,6 @@ body{
   font-size: 25px;
   transition: ease-out;
 }
-
 
 .faqs .faq .faq-answer{
   margin: 10px;
@@ -289,7 +283,6 @@ body{
   background-color: #ffffff;
   color: #dd6e42;
 }
-
 
 .footer{
   text-align: center;

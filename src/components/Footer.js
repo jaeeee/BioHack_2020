@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import Contact from "./Contact";
+import {FaEnvelope, FaFacebook, FaInstagram, FaSlack} from 'react-icons/fa'
 
 export class Footer extends Component {
   render() {
     return (
         <div className="footer">
-          <Contact/>
+          <div className="contact row mb-3">
+                <a href="mailto:biohack.ucr@gmail.com"><FaEnvelope /></a>
+                <a href="https://www.facebook.com/UCRBioHack/"><FaFacebook/></a>
+                <a href="https://www.instagram.com/biohack_ucr/?hl=en"><FaInstagram/></a>
+                <a href="https://biohack2019.slack.com/"><FaSlack /></a>
+            </div>
           <p>Built with love by UCR's BioHack Web Development Team.</p>
         </div>
     );
