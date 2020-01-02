@@ -8,6 +8,7 @@ import overall_first_biohack_2019 from "../images/overall_first_biohack_2019.jpg
 import {GiPodium, GiPodiumWinner, GiHumanPyramid} from "react-icons/gi";
 import SlideView from './SlideView';
 import WinnerCard from './WinnerCard';
+import ImageSlides from './ImageSlides';
 export class Projects extends Component {
 
   state = {
@@ -89,6 +90,9 @@ export class Projects extends Component {
                 description={" Air Quality Index Map allows environmentally conscious people to monitor current air quality indices (AQI) in their area. The AQI map displays the current air conditions for any location through Google Maps so that users may know the air quality of places they plan to visit."}
               />
             </SlideView>
+          </div>
+          <div>
+              <ImageSlides/>
           </div>
         </div>
     );
