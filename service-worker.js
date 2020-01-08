@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BioHack_2020/precache-manifest.49c021ec34c626790f10e04231e3f888.js"
+  "/BioHack_2020/precache-manifest.c0f7cd7724f4821c2c651acf40254f07.js"
 );
 
 self.addEventListener('message', (event) => {
