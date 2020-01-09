@@ -4,7 +4,7 @@ import {MdAnnouncement} from "react-icons/md";
 class Announcements extends Component {
     render() {
         return (
-            <div className="section fadeIn" id="Announcements">
+            <div className="mt-5 section fadeIn" id="Announcements">
             <h1 className="text-center"><MdAnnouncement/> Announcements</h1>
             <div className="row">
                 <div className="col-md-6">

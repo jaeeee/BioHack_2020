@@ -5,9 +5,10 @@ import {FaDna} from 'react-icons/fa'
 export class About extends Component {
   render() {
     return (
-        <div className="row section fadeIn" id = "BioHack">
+        <div className="mt-5 section fadeIn" id = "BioHack">
+          <h1><FaDna/> What is BioHack All About?</h1>
+          <div className="row">
           <div className="col">
-            <h1><FaDna/> What is BioHack All About?</h1>
             <p className="mt-5">
               BioHack is a 12-hour <span className="highlight">health and medicine-themed hackathon</span> hosted at University of California, Riverside.
               As a beginner-friendly and multidisciplinary hackathon, BioHack aims to give students the <span className="highlight">opportunity</span> to
@@ -20,6 +21,7 @@ export class About extends Component {
           </div>
           <div className="col">
             <img src={Virus} className="virus" alt="Virus"/>
+          </div>
           </div>
         </div>
       );

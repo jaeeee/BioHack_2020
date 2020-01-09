@@ -5,7 +5,7 @@ import GreenVirus from '../images/Icon_Green.PNG';
 export class Sponsors extends Component {
   render() {
     return (
-      <div className="section fadeIn" id="Sponsors">
+      <div className="mt-5 section fadeIn" id="Sponsors">
         <center>
           <h1>
             <FaUserFriends /> Sponsors

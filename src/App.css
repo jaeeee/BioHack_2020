@@ -80,6 +80,7 @@ body{
 .section h1{
   font-weight: 800 !important;
   color: #dd6e42 !important;
+  text-align: center;
   font-size: 48pt;
   font-family: 'Open Sans', sans-serif;
 }
