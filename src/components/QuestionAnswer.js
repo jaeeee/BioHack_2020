@@ -12,7 +12,7 @@ class QuestionAnswer extends Component {
         })
     }
 
-    
+
     render() {
         const divStyle = {
               marginRight: '0.8rem'
@@ -23,11 +23,14 @@ class QuestionAnswer extends Component {
             className={"faq" + (this.state.open ? " open" : "")}
             onClick={() => this.ToggleCard()}
           >
-            <div className="faq-question">
+            <div className="faq-question" style={divStyle}>
+
+
+
+
               {this.props.question}
-              <div style={divStyle}>
-                <FaArrowCircleDown className="faq-arrow" />
-              </div>
+              <FaArrowCircleDown className="faq-arrow" />
+
             </div>
             <div className="faq-answer">{this.props.answer}</div>
           </div>

@@ -238,7 +238,8 @@ body{
 }
 
 .faqs .faq .faq-question .faq-arrow{
-  margin-left: 15px;
+  float: right;
+  margin-top: 10px;
   font-size: 25px;
   transition: ease-out;
 }
