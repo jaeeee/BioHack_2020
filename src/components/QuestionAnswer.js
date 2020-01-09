@@ -11,20 +11,26 @@ class QuestionAnswer extends Component {
             open : !this.state.open
         })
     }
+
+    
     render() {
+        const divStyle = {
+              marginRight: '0.8rem'
+//   border: '5px solid pink'
+};
         return (
-            <div 
-                className={"faq" + (this.state.open ? " open" : "") }
-                onClick={() => this.ToggleCard()}
-            >
-                <div className="faq-question">
-                     {this.props.question} 
-                    <FaArrowCircleDown className="faq-arrow"/>
-                </div>
-                <div className="faq-answer">
-                     {this.props.answer}
-                </div>
+          <div
+            className={"faq" + (this.state.open ? " open" : "")}
+            onClick={() => this.ToggleCard()}
+          >
+            <div className="faq-question">
+              {this.props.question}
+              <div style={divStyle}>
+                <FaArrowCircleDown className="faq-arrow" />
+              </div>
             </div>
+            <div className="faq-answer">{this.props.answer}</div>
+          </div>
         );
     }
 }

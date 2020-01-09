@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./components/HomePage";
 import Announcements from './components/Announcements';
 import Projects from "./components/Projects";
-import FQA from "./components/FAQ";
+import FAQ from "./components/FAQ";
 import About from "./components/About";
 import Sponsors from "./components/Sponsors";
 import {FaHome, FaDna, FaQuestion, FaUserFriends} from 'react-icons/fa'
@@ -42,7 +42,7 @@ export class App extends Component {
                     <NavLink className="nav-link" to="/projects"><span className="nav-bar-option"><GiPodium/> Winners</span></NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to="/fqas"><span className="nav-bar-option"><FaQuestion/> FAQs</span></NavLink>
+                    <NavLink className="nav-link" to="/FAQs"><span className="nav-bar-option"><FaQuestion/> FAQs</span></NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/sponsors"><span className="nav-bar-option"><FaUserFriends/> Sponsors</span></NavLink>
@@ -56,7 +56,7 @@ export class App extends Component {
               <Route path="/about" component={About}/>
               <Route path="/announcements" component={Announcements}/>
               <Route path="/projects" component={Projects}/>
-              <Route path="/fqas" component={FQA}/>
+              <Route path="/FAQs" component={FAQ}/>
               <Route path="/sponsors" component={Sponsors}/>
             </div>
             <Footer />
