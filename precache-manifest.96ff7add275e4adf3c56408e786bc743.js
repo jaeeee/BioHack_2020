@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3046c24212396d9aca71769eebbb53d",
+    "revision": "a712634ff9a52ae240295070f57dc8f3",
     "url": "/BioHack_2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BioHack_2020/static/css/2.ceb5ead3.chunk.css"
   },
   {
-    "revision": "b9bea4133256949f91ea",
-    "url": "/BioHack_2020/static/css/main.62a1a89a.chunk.css"
+    "revision": "4032a7b545da691d6b99",
+    "url": "/BioHack_2020/static/css/main.5b4aab23.chunk.css"
   },
   {
     "revision": "39a2b7268c59c6287e93",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BioHack_2020/static/js/2.82e5b206.chunk.js.LICENSE"
   },
   {
-    "revision": "b9bea4133256949f91ea",
-    "url": "/BioHack_2020/static/js/main.6751ae05.chunk.js"
+    "revision": "4032a7b545da691d6b99",
+    "url": "/BioHack_2020/static/js/main.b2cf4500.chunk.js"
   },
   {
     "revision": "e5b15bf5a3fa2a346586",
