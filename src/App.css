@@ -235,14 +235,14 @@ body{
 .faqs .faq .faq-question{
   margin: 10px;
   font-size: 25px;
-  transition: all 0.3s ease-out;
+  transition: all 0.2s linear;
 }
 
 .faqs .faq .faq-question .faq-arrow{
   float: right;
   margin-top: 10px;
   font-size: 25px;
-  transition: ease-out;
+  transition: 0.4s linear;
 }
 
 .faqs .faq .faq-answer{
@@ -251,7 +251,7 @@ body{
   opacity: 0;
   max-height: 0;
   overflow-y: hidden;
-  transition: all 0.3s ease-out;
+  transition: all 0.2s linear;
 }
 
 /* When the component is clicked */
@@ -266,7 +266,7 @@ body{
 
 .faqs .faq.open .faq-question .faq-arrow {
   transform: rotate(180deg);
-  transition: ease-out;
+  transition: 0.4s linear;
 }
 
 .faqs .faq.open .faq-answer {
