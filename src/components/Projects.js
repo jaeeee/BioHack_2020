@@ -8,8 +8,51 @@ import overall_first_biohack_2019 from "../images/overall_first_biohack_2019.jpg
 import {GiPodium, GiPodiumWinner, GiHumanPyramid} from "react-icons/gi";
 import SlideView from './SlideView';
 import WinnerCard from './WinnerCard';
-export class Projects extends Component {
 
+const projects = [
+      {
+        icon1: <FaBrain/>,
+        icon2: <GiPodiumWinner/>,
+        category: "Overall 1st Place",
+        projectName: "Remembrall",
+        image: overall_first_biohack_2019,
+        description: "Remembrall is a companion app that was created for those suffering from Alzheimer's and Dementia. Rememberall helps users remember important details of their life by using real time user entered data. The user can input their thoughts, memories, pictures and important information about themselves to aid throughout their daily lives.",
+      },
+      {
+        icon1: <FaAllergies/>,
+        icon2: <FaGoogle/>,
+        category: "Best Google Hack",
+        projectName: "Skancare",
+        image: best_google_biohack_2019,
+        description: "Skancare aims to bring awareness to skin ailments by utilizing machine learning to classify skin lesions. This program takes a close-up image of the skin and analyzes it to identify the lesion type. Skancare aims to make lesion diagnoses easier to identify."
+      },
+      {
+        icon1: <FaSun/>,
+        icon2: <FaBabyCarriage/>,
+        category: "Best Beginner Hack",
+        projectName: "Sleep-Stone Bridge",
+        image: best_beginner_biohack_2019,
+        description: " Sleep-Stone Bridge is a device that monitors the amount of excess light the user is exposed to. Excess light can cause a person’s regular 24-hour Circadian Rhythm to be disrupted and lead health risks such as lack of sleep. This project alerts the user with light sensors during evening hours to lower light levels to preserve the Circadian Rhythm."
+      },
+      {
+        icon1: <FaCheck/>,
+        icon2: <FaHardHat/>,
+        category: "Best Hardware Hack",
+        projectName: "EpiTech",
+        image: best_hardware_biohack_2019,
+        description: "EpiTech is a device that monitors skin blemishes to accurately determine the effectiveness of the product you are using. It utilizes a micro spectrometer and cloud services to deliver real time data to patients andphysicians while, determining the effectiveness of your acne treatment."
+      },
+      {
+        icon1: <FaCloud/>,
+        icon2: <GiHumanPyramid/>,
+        category: "Best Humitarian Hack",
+        projectName: "Air Quality Index Map",
+        image: best_humanitarian_biohack_2019,
+        description: "Air Quality Index Map allows environmentally conscious people to monitor current air quality indices (AQI) in their area. The AQI map displays the current air conditions for any location through Google Maps so that users may know the air quality of places they plan to visit."
+      }
+]
+
+export class Projects extends Component {
   state = {
     responsiveSettings : [
       {
@@ -48,46 +91,17 @@ export class Projects extends Component {
           </h1>
           <div className="mt-5 mb-5">
             <SlideView responsiveSettings={this.state.responsiveSettings}>
-              <WinnerCard
-                icon1={<FaBrain/>}
-                icon2={<GiPodiumWinner/>}
-                category={"Overall 1st Place"}
-                projectName={"Remembrall"}
-                image={overall_first_biohack_2019}
-                description={"Remembrall is a companion app that was created for those suffering from Alzheimer's and Dementia. Rememberall helps users remember important details of their life by using real time user entered data. The user can input their thoughts, memories, pictures and important information about themselves to aid throughout their daily lives."}
+              {projects.map((project, index) => (
+                <WinnerCard
+                icon1={project.icon1}
+                icon2={project.icon2}
+                category={project.category}
+                projectName={project.projectName}
+                image={project.image}
+                description={project.description}
+                key = {index  }
               />
-              <WinnerCard
-                icon1={<FaAllergies/>}
-                icon2={<FaGoogle/>}
-                category={"Best Google Hack"}
-                projectName={"Skancare"}
-                image={best_google_biohack_2019}
-                description={"Skancare aims to bring awareness to skin ailments by utilizing machine learning to classify skin lesions. This program takes a close-up image of the skin and analyzes it to identify the lesion type. Skancare aims to make lesion diagnoses easier to identify."}
-              />
-              <WinnerCard
-                icon1={<FaSun/>}
-                icon2={<FaBabyCarriage/>}
-                category={"Best Beginner Hack"}
-                projectName={"Sleep-Stone Bridge"}
-                image={best_beginner_biohack_2019}
-                description={" Sleep-Stone Bridge is a device that monitors the amount of excess light the user is exposed to. Excess light can cause a person’s regular 24-hour Circadian Rhythm to be disrupted and lead health risks such as lack of sleep. This project alerts the user with light sensors during evening hours to lower light levels to preserve the Circadian Rhythm."}
-              />
-              <WinnerCard
-                icon1={<FaCheck/>}
-                icon2={<FaHardHat/>}
-                category={"Best Hardware Hack"}
-                projectName={"EpiTech"}
-                image={best_hardware_biohack_2019}
-                description={"EpiTech is a device that monitors skin blemishes to accurately determine the effectiveness of the product you are using. It utilizes a micro spectrometer and cloud services to deliver real time data to patients andphysicians while, determining the effectiveness of your acne treatment."}
-              />
-              <WinnerCard
-                icon1={<FaCloud/>}
-                icon2={<GiHumanPyramid/>}
-                category={"Best Humitarian Hack"}
-                projectName={"Air Quality Index Map"}
-                image={best_humanitarian_biohack_2019}
-                description={" Air Quality Index Map allows environmentally conscious people to monitor current air quality indices (AQI) in their area. The AQI map displays the current air conditions for any location through Google Maps so that users may know the air quality of places they plan to visit."}
-              />
+              ))}
             </SlideView>
           </div>
         </div>
