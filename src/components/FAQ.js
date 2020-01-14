@@ -58,7 +58,7 @@ export class FAQ extends Component {
                   }
                 </div>
                 <div className="col-md-6">
-                  <img src={BlueVirus} className="virus mt-5 ml-5" alt="Thinking Virus"></img>
+                  <img src={BlueVirus} className="virus mt-5" alt="Thinking Virus"></img>
                 </div>
               </div>
             </div>
