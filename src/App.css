@@ -303,6 +303,24 @@ body{
            animation: fadein 1s;
 }
 
+.sponsor-logo{
+  width: 300px;
+  padding: 40px;
+  transform: scale(1.0);
+	transition: all ease-in-out 300ms;
+}
+
+.sponsor-logo:hover{
+  transform: scale(1.5);
+	transition: all ease-in-out 300ms;
+  
+}
+
+.happy-virus{
+  margin-top: 200px;
+  width: 300px;
+  height: 300px;
+}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
