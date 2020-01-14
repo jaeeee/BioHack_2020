@@ -235,7 +235,7 @@ body{
 .faqs .faq .faq-question{
   margin: 10px;
   font-size: 25px;
-  transition: all 0.2s linear;
+	transition: ease 220ms;
 }
 
 .faqs .faq .faq-question .faq-arrow{
@@ -251,7 +251,7 @@ body{
   opacity: 0;
   max-height: 0;
   overflow-y: hidden;
-  transition: all 0.2s linear;
+	transition: ease 220ms;
 }
 
 /* When the component is clicked */
