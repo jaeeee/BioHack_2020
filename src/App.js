@@ -24,7 +24,7 @@ export class App extends Component {
       <HashRouter>
         <div className="main-wrapper">
             <nav className="sticky-top navbar navbar-expand-lg navigation-bar navbar-dark">
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button className="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
@@ -50,7 +50,6 @@ export class App extends Component {
                 </ul>
               </div>
             </nav>
-
             <div className="container">
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>
@@ -59,11 +58,10 @@ export class App extends Component {
               <Route path="/FAQs" component={FAQ}/>
               <Route path="/sponsors" component={Sponsors}/>
             </div>
-            <Footer />
+            <Footer/>
         </div>
       </HashRouter>
       );
     }
   }
-
   export default App;
