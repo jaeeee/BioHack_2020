@@ -44,7 +44,7 @@ class WinnerCard extends Component {
             </Modal.Header>
             <Modal.Body>
             <div className="biohack-winners-card">
-              <div className="icons-modal">
+              <div className="icons-modal mt-3">
                   {this.props.icon1}{" "}
                   {this.props.projectName}
               </div>

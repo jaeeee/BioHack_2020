@@ -126,22 +126,34 @@ body{
 /* Biohack winners modal css */
 .biohack-winners-modal .modal-content{
   font-size: 18px;
-  background: #f7e1da;
-  color: #dd6e42;
+  background: #dd6e42;
+  color: #f7e1da;
   padding: 25px 25px 25px 25px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .biohack-winners-card img{
-  width: 400px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  height: 240px; 
+  width: 320px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
   border-radius: 5px;
 }
 
-.biohack-winners-card p{
-  color: #282c34;
+.btn{
+  background-color: #dd6e42;
+  color: #ffffff;
+  border: none;
+  }
+
+.btn:hover{
+  background-color: #ffffff;
+  color: #dd6e42;
 }
 
 /* Biohack winners Slide view cards css */
@@ -161,7 +173,7 @@ body{
 .biohack-winners p{
   text-align: left;
   font-size: 12pt;
-  color: #282c34;
+  color: #dd6e42;
 }
 
 .cardBody{
@@ -274,18 +286,6 @@ body{
   opacity: 1;
 }
 
-.btn{
-  background-color: #dd6e42 ;
-  color: #ffffff;
-  border: none;
-
-}
-
-.btn:hover{
-  background-color: #ffffff;
-  color: #dd6e42;
-}
-
 .footer{
   text-align: center;
 }
@@ -304,8 +304,8 @@ body{
 }
 
 .sponsor-logo{
-  width: 300px;
-  padding: 40px;
+  width: 265px;
+  padding: 30px;
   transform: scale(1.0);
 	transition: all ease-in-out 300ms;
 }

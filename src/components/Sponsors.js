@@ -19,7 +19,7 @@ const sponsorsLeft = [
   { logo: googleLogo , link: "https://www.google.com/" },
   { logo: amgenLogo, link: "https://www.amgen.com/"},
   { logo: cseLogo, link: "https://www1.cs.ucr.edu/"},
-  { logo: "oop", link: "https://www.ootpdevelopments.com/"},
+  // Confirm Logo{ logo: "oop", link: "https://www.ootpdevelopments.com/"},
   { logo: kgiLogo, link: "https://www.kgi.edu/"},
   { logo: bmesLogo, link: "https://bmesucr.weebly.com/"}
 ]
@@ -35,7 +35,7 @@ const sponsorsRight = [
 export class Sponsors extends Component {
   render() {
     return (
-      <div className="mt-5 section fadeIn" id="Sponsors">
+      <div className="mt-5 section fadeIn text-center" id="Sponsors">
         <center>
           <h1>
             <FaUserFriends/> Sponsors
@@ -43,13 +43,14 @@ export class Sponsors extends Component {
         </center>
         <div className="row mt-5">
           <div className="col">
-            {sponsorsLeft.map((sponsor, index) => (
-              <Sponsor
-                logo = {sponsor.logo}
-                link = {sponsor.link}
-                key = {index}
-              />
-            )) 
+            {
+              sponsorsLeft.map((sponsor, index) => (
+                <Sponsor
+                  logo = {sponsor.logo}
+                  link = {sponsor.link}
+                  key = {index}
+                />
+              )) 
             }
           </div>
           <div className="col">
@@ -65,13 +66,14 @@ export class Sponsors extends Component {
             ></img>
           </div>
           <div className="col">
-          {sponsorsRight.map((sponsor, index) => (
-              <Sponsor
-                logo = {sponsor.logo}
-                link = {sponsor.link}
-                key = {index}
-              />
-            )) 
+            {
+              sponsorsRight.map((sponsor, index) => (
+                <Sponsor
+                  logo = {sponsor.logo}
+                  link = {sponsor.link}
+                  key = {index}
+                />
+              )) 
             }
           </div>
         </div>
