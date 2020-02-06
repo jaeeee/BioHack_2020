@@ -7,10 +7,10 @@ class Announcements extends Component {
             <div className="mt-5 section fadeIn" id="Announcements">
             <h1 className="text-center"><MdAnnouncement/> Announcements</h1>
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col">
                   <img src={CheeringVirus} className="virus" alt="Cheering Virus"/>
                 </div>
-                <div className="col-lg-6">
+                <div className="col">
                   <p className="mt-5">
                     Want to <span className="highlight">help</span> plan/organize BioHack 2020? Come out to the first BioHack 2020 <span className="highlight">Committee Info Meeting</span> on Wednesday, November 20th, 2019 from 5-6 p.m.
                     in Bourns A265! We'd love to have you on board!
