@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import Image from '../images/Website-Backdrop.png'
+// import Image from '../images/backdrop2.png'
 // import './HomePage.css'
 
-const styles = {
-  paperContainer: {
-    // backgroundColor: '#000000',   
-    backgroundImage: `url(${Image})`,
-    // height: "100%",
-    backgroundSize: "cover",
-    width: "88%",
-    height: "800px"
-  }
-};
+// const styles = {
+//   paperContainer: {
+//     // backgroundColor: '#000000',
+//     backgroundImage: `url(${Image})`,
+//     // height: "100%",
+//     backgroundSize: "cover",
+//     backgroundRepeat: "no-repeat",
+//     width: "100%",
+//     height: "800px"
+//   }
+// };
 
 
 // componentWillUnmount() {

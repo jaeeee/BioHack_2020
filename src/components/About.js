@@ -10,13 +10,13 @@ export class About extends Component {
           <div className="row">
           <div className="col">
             <p className="mt-5">
-              BioHack is a 12-hour <span className="highlight">health and medicine-themed hackathon</span> hosted at University of California, Riverside.
-              As a beginner-friendly and multidisciplinary hackathon, BioHack aims to give students the <span className="highlight">opportunity</span> to
-               create innovatived personalized solutions and <span className="highlight">save lives with their projects</span>.
+              BioHack is a 12-hour <strong>health and medicine-themed hackathon</strong> hosted at University of California, Riverside.
+              As a beginner-friendly and multidisciplinary hackathon, BioHack aims to give students the <strong>opportunity</strong> to
+               create innovatived personalized solutions and <strong>save lives with their projects</strong>.
               </p>
               <p>
               During BioHack, students will get the opportunity to form teams
-              and collaborate, <span className="highlight">attend workshops</span> to learn about new technologies, and <span className="highlight">network</span> with industry partners.
+              and collaborate, <strong>attend workshops</strong> to learn about new technologies, and <strong>network</strong> with industry partners.
             </p>
           </div>
           <div className="col">

@@ -18,22 +18,12 @@ import {
   HashRouter
 } from "react-router-dom";
 import Image from "./images/Website-Backdrop.png";
-const styles = {
-  paperContainer: {
-    // backgroundColor: '#000000',
-    // backgroundImage: `url(${Image})`,
-    // height: "100%",
-    // backgroundSize: "cover",
-    // width: "88%",
-    // height: "800px"
-  }
-};
+
 export class App extends Component {
   render() {
     // console.log(this.props.location.pathname);
-
     return (
-      <div style={styles.paperContainer}>
+      <div>
         <HashRouter>
           <div className="main-wrapper">
             <nav className="sticky-top navbar navbar-expand-lg navigation-bar navbar-dark">
@@ -95,6 +85,8 @@ export class App extends Component {
                 </ul>
               </div>
             </nav>
+
+
             <div className="container">
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
@@ -103,10 +95,11 @@ export class App extends Component {
               <Route path="/FAQs" component={FAQ} />
               <Route path="/sponsors" component={Sponsors} />
             </div>
+
             <Footer />
           </div>
         </HashRouter>
-      // </div>
+        </div>
     );
     }
   }
