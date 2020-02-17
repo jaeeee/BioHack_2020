@@ -15,7 +15,7 @@ body{
 .main-wrapper p{
   font-family: 'Raleway', sans-serif;
   line-height: 2em;
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
 
@@ -58,6 +58,13 @@ li > a.active {
 
 
 .hero{
+  text-align: center;
+  margin: 50px auto;
+  max-width: 100%;
+}
+
+.hero-background{
+  padding: 150px 0;
   background-image: url('./images/backdrop2.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,34 +75,34 @@ li > a.active {
   transition-timing-function: ease-in-out, ease-in-out;
   transition-property: box-shadow, background-color;
   transition-delay: initial, initial;
-  text-align: center;
-  vertical-align: middle;
-  margin: 50px 20px;
-  height: 50vh;
-
 }
+
 .hero h1{
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  margin-top: 150px;
-  padding-top: 50px;
   font-size: 72pt;
   text-shadow: 8px 8px #dd6e42;
 }
 
 .section{
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 .section h1{
-  padding:50px 0;
+  padding-top: 25px;
+  padding-bottom: 50px;
   font-weight: 800 !important;
   color: #dd6e42 !important;
   font-size: 48pt;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+.row{
+  margin-bottom: 200px;
+}
 
+ul.announcement-list{
+  list-style-type: circle;
+}
 .biohack-winners{
   margin: 10px;
   padding: 30px;
