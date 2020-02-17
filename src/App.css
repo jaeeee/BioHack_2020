@@ -30,8 +30,7 @@ li > a.active {
 }
 
 .navbar-toggler{
-
-  color: white;
+  background-color:#f0f0f0;
 
 }
 
@@ -40,10 +39,6 @@ li > a.active {
   padding-left: 10px;
   background-color: #fff;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
-  /* background-image: url(images/Navbar_flipped.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right; */
 }
 
 .navigation-bar a {
