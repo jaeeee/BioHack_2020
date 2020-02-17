@@ -26,7 +26,7 @@ export class App extends Component {
       <div>
         <HashRouter>
           <div className="main-wrapper">
-            <nav className="sticky-top navbar navbar-expand-lg navigation-bar navbar-dark">
+            <nav className="sticky-top navbar navbar-expand-lg navigation-bar navbar-light">
               <button
                 className="navbar-toggler"
                 type="button"
@@ -36,7 +36,9 @@ export class App extends Component {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon">
+
+                </span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">

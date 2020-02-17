@@ -30,8 +30,7 @@ li > a.active {
 }
 
 .navbar-toggler{
-  background-color:#f0f0f0;
-
+  border: none;
 }
 
 .navigation-bar {
