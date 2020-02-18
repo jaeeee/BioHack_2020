@@ -196,6 +196,28 @@ ul.announcement-list{
   color: #dd6e42;
 }
 
+.biohack-pictures {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* TODO: PROPERLY RESIZE IMAGES*/
+
+.biohack-picture-cont{
+  border-radius: 25px;
+  width: 400px;
+  height: 250px;
+}
+.biohack-picture-cont img{
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  display: block;
+}
+
+
 .cardBody{
   font-size: 14pt;
 }
