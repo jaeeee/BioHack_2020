@@ -339,7 +339,7 @@ ul.announcement-list{
         -o-animation: fadein 1s;
            animation: fadein 1s;
 }
-
+/*
 .sponsor-logo{
   width: 265px;
   padding: 30px;
@@ -352,11 +352,25 @@ ul.announcement-list{
 	transition: all ease-in-out 300ms;
 
 }
+*/
+.sponsors_logo{
+  width: 265px;
+  padding: 30px;
+  transform: scale(1.0);
+	transition: all ease-in-out 300ms;
+}
+.sponsors_logo:hover{
+  transform: scale(1.25);
+	transition: all ease-in-out 300ms;
+
+}
 
 .happy-virus{
-  margin-top: 200px;
-  width: 300px;
-  height: 300px;
+  margin-top: 50px;
+  max-width: 265px;
+  max-height:205px;
+  height: 100%;
+  height: auto;
 }
 @keyframes fadein {
     from { opacity: 0; }
