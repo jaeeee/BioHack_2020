@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import FAQ from "./components/FAQ";
 import About from "./components/About";
 import Sponsors from "./components/Sponsors";
-import {FaHome, FaDna, FaQuestion, FaUserFriends} from 'react-icons/fa'
+import {FaHome, FaDna, FaQuestion, FaUserFriends, FaLink} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodium} from "react-icons/gi";
 import "slick-carousel/slick/slick.css";
@@ -18,6 +18,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import Image from "./images/Website-Backdrop.png";
+import Application from './components/Application';
 
 export class App extends Component {
   render() {
@@ -36,9 +37,7 @@ export class App extends Component {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span className="navbar-toggler-icon">
-
-                </span>
+                <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
@@ -84,10 +83,17 @@ export class App extends Component {
                       </span>
                     </NavLink>
                   </li>
+                  {/* <li className="nav-item">
+                    <NavLink className="nav-link" to="/apply">
+                      <span className="nav-bar-option">
+                        <FaLink /> Apply
+                      </span>
+                    </NavLink>
+                  </li> */}
+                  {/* ENABLE THIS WHEN PRIORITY REGISTRATION OPENS!! */}
                 </ul>
               </div>
             </nav>
-
 
             <div className="container">
               <Route exact path="/" component={Home} />
@@ -96,12 +102,13 @@ export class App extends Component {
               <Route path="/projects" component={Projects} />
               <Route path="/FAQs" component={FAQ} />
               <Route path="/sponsors" component={Sponsors} />
+              <Route path="/apply" component={Application} />
             </div>
 
             <Footer />
           </div>
         </HashRouter>
-        </div>
+      </div>
     );
     }
   }
