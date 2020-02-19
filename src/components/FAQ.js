@@ -20,7 +20,7 @@ const questionAnswer = [
     },
     {
       question: "How do I register?",
-      answer: "Applications to participate in BioHack 2019 are open now. Feel free to contact us at BioHack.UCR@gmail.com if you have any further questions."
+      answer: "Applications to participate in BioHack 2020 open in one week! Feel free to contact us at BioHack.UCR@gmail.com if you have any further questions."
     },
     {
       question: "Does this event cost money?",
