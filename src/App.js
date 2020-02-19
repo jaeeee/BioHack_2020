@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import FAQ from "./components/FAQ";
 import About from "./components/About";
 import Sponsors from "./components/Sponsors";
-import {FaHome, FaDna, FaQuestion, FaUserFriends, FaLink} from 'react-icons/fa'
+import {FaHome, FaDna, FaQuestion, FaUserFriends} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodium} from "react-icons/gi";
 import "slick-carousel/slick/slick.css";
@@ -17,7 +17,6 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import Image from "./images/Website-Backdrop.png";
 import Application from './components/Application';
 
 export class App extends Component {

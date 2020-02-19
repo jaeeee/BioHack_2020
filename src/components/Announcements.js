@@ -5,7 +5,7 @@ class Announcements extends Component {
     render() {
         return (
             <div className="mt-5 section fadeIn" id="Announcements">
-            <h1 className="text-center"><MdAnnouncement/> Announcements</h1>
+            <h1><MdAnnouncement/> Announcements</h1>
             <div className="row">
                 <div className="col">
                   <img src={CheeringVirus} className="virus" alt="Cheering Virus"/>

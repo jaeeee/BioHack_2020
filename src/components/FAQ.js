@@ -44,7 +44,7 @@ export class FAQ extends Component {
     render() {
         return (
             <div className="faqs section mt-5 mb-5 fadeIn" id="FAQ">
-              <h1 className="text-center mb-5"><FaQuestion/> FAQs</h1>
+              <h1 className="mb-5"><FaQuestion/> FAQs</h1>
               <div className="row">
                 <div className="col-md-6">
                   {

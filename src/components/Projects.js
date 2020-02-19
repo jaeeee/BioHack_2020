@@ -86,7 +86,7 @@ export class Projects extends Component {
   render() {
     return (
         <div className="mt-5 section fadeIn" id="Winners2019">
-          <h1 className="text-center" >
+          <h1>
             <GiPodium/> BioHack 2019 Winners
           </h1>
           <div className="mt-5 mb-5">
