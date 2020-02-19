@@ -1,42 +1,47 @@
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto&display=swap'); */
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Raleway:400,700&display=swap');
 
 .App {
   text-align: center;
 }
 
 body{
+  /* background-image: url('./images/backdrop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
   overflow-x: hidden;
 }
 
 .main-wrapper p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 2em;
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
-.highlight{
-  border-bottom: 5px solid #dd6e42;
+
+nav ul li a:hover{
+    background-color:#f0f0f0;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-property: background-color;
+}
+li > a.active {
+    background-color:#f0f0f0;
 }
 
 .navbar-toggler{
-  background-color: #dd6e42;
-
+  border: none;
 }
 
 .navigation-bar {
-  background-image: url(images/Navbar_flipped.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  padding:5px 0;
+  padding-left: 10px;
   background-color: #fff;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .navigation-bar a {
-  background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-radius: 4.5px;
   margin-right: 10px;
 }
 
@@ -50,43 +55,53 @@ body{
   color: #dd6e42;
 }
 
-.nav-bar-option:hover {
-  color: #e2eb98;
-  -o-transition:color 2s ease-out, background 2s ease-in;
-  -ms-transition:color 2s ease-out, background 2s ease-in;
-  -moz-transition:color 2s ease-out, background 2s ease-in;
-  -webkit-transition:color 2s ease-out, background 2s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, background 2s ease-in;
-}
-
 
 .hero{
   text-align: center;
-  vertical-align: middle;
-  height: 50vh;
+  margin: 50px auto;
+  max-width: 100%;
 }
+
+.hero-background{
+  padding: 150px 0;
+  background-image: url('./images/backdrop2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 0.5em;
+  box-shadow: rgba(184,194,215,0.34902) 0px 3px 6px 0px;
+  transition-duration: 400ms, 400ms;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-property: box-shadow, background-color;
+  transition-delay: initial, initial;
+}
+
 .hero h1{
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  margin-top: 200px;
   font-size: 72pt;
   text-shadow: 8px 8px #dd6e42;
 }
 
-
 .section{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .section h1{
+  padding-top: 25px;
+  padding-bottom: 50px;
   font-weight: 800 !important;
   color: #dd6e42 !important;
-  text-align: center;
   font-size: 48pt;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+.row{
+  margin-bottom: 200px;
+}
 
+ul.announcement-list{
+  list-style-type: circle;
+}
 .biohack-winners{
   margin: 10px;
   padding: 30px;
@@ -94,7 +109,7 @@ body{
   background: #f7e1da;
   text-align: center;
   margin-bottom: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .biohack-winners h4{
@@ -137,7 +152,7 @@ body{
 }
 
 .biohack-winners-card img{
-  height: 220px; 
+  height: 220px;
   width: 320px;
   display: block;
   margin-left: auto;
@@ -145,6 +160,9 @@ body{
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 5px;
+}
+.biohack-winners-card p{
+  font-family: 'Raleway', sans-serif;
 }
 
 .btn{
@@ -223,9 +241,26 @@ body{
 }
 
 .virus {
-  height : 600px;
-  width: 600px;
+  background-image: url('./images/backdrop2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 0.5em;
+  box-shadow: rgba(184,194,215,0.34902) 0px 3px 6px 0px;
+  transition-duration: 400ms, 400ms;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-property: box-shadow, background-color;
+  transition-delay: initial, initial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height : 500px;
+  width: 500px;
   position: sticky;
+  align-items: center;
+}
+.virus:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
 }
 
 .faqs{
@@ -294,7 +329,7 @@ body{
 
 .footer p{
   font-size: 10pt;
-  color: grey;
+  margin-bottom: 50px;
 }
 
 .fadeIn{
@@ -315,7 +350,7 @@ body{
 .sponsor-logo:hover{
   transform: scale(1.5);
 	transition: all ease-in-out 300ms;
-  
+
 }
 
 .happy-virus{
@@ -331,7 +366,7 @@ body{
 
 @media only screen and (max-width: 800px){
   .hero h1{
-    font-size: 48pt;
+    font-size: 40pt;
   }
   .section h1{
     font-size: 36pt;
@@ -340,7 +375,14 @@ body{
     font-size: 12pt;
   }
   .virus {
-    height : 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 400px;
+    height: 400px;
+
+  }
+  .footer p{
+    font-size: 8pt;
   }
 }

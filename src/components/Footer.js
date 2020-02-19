@@ -9,7 +9,6 @@ export class Footer extends Component {
                 <a href="mailto:biohack.ucr@gmail.com"><FaEnvelope /></a>
                 <a href="https://www.facebook.com/UCRBioHack/"><FaFacebook/></a>
                 <a href="https://www.instagram.com/biohack_ucr/?hl=en"><FaInstagram/></a>
-                <a href="https://biohack2019.slack.com/"><FaSlack /></a>
             </div>
           <p>Built with love by UCR's BioHack Web Development Team.</p>
         </div>
