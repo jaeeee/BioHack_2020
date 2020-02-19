@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Sponsor from "./Sponsor";
 import {FaUserFriends} from 'react-icons/fa';
-import GreenVirus1 from '../images/Icon_Green1.png';
 import GreenVirus2 from '../images/Icon_Green2.png';
 import amgenLogo from '../images/sponsorsLogos/amgen_logo.png';
 import blackstoneLaunchpadUcrLogo from '../images/sponsorsLogos/blackstone_launchpad.png';
@@ -18,8 +17,6 @@ import asucrLogo from '../images/sponsorsLogos/asucr_logo.png';
 import aspbLogo from '../images/sponsorsLogos/aspb_logo.png';
 import mimiscafeLogo from '../images/sponsorsLogos/mimiscafe_logo.png';
 import sketchLogo from '../images/sponsorsLogos/sketch_logo.png';
-
-// import  from '../images/sponsorsLogos';
 
 const sponsorsLeft = [
   { logo: googleLogo , link: "https://www.google.com/" },
@@ -52,12 +49,10 @@ const sponsorsBottom = [
 export class Sponsors extends Component {
   render() {
     return (
-      <div className="mt-5 section fadeIn text-center" id="Sponsors">
-        <center>
+      <div className="mt-5 section fadeIn" id="Sponsors">
           <h1>
             <FaUserFriends/> Sponsors
           </h1>
-        </center>
         <div className="row mt-5">
           <div className="col">
             {
@@ -80,11 +75,6 @@ export class Sponsors extends Component {
                 />
               ))
             }
-            <img
-              src={GreenVirus1}
-              className="happy-virus"
-              alt="Happy Virus"
-            ></img>
             <img
               src={GreenVirus2}
               className="happy-virus"
