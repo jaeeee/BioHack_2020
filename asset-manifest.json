@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.583ec91a.chunk.css",
-    "main.js": "/static/js/main.59b1e3b1.chunk.js",
-    "main.js.map": "/static/js/main.59b1e3b1.chunk.js.map",
+    "main.css": "/static/css/main.c45542a3.chunk.css",
+    "main.js": "/static/js/main.9a5b9b23.chunk.js",
+    "main.js.map": "/static/js/main.9a5b9b23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa3c0ae8.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa3c0ae8.js.map",
     "static/css/2.18585a14.chunk.css": "/static/css/2.18585a14.chunk.css",
-    "static/js/2.b31cc6aa.chunk.js": "/static/js/2.b31cc6aa.chunk.js",
-    "static/js/2.b31cc6aa.chunk.js.map": "/static/js/2.b31cc6aa.chunk.js.map",
+    "static/js/2.f458267a.chunk.js": "/static/js/2.f458267a.chunk.js",
+    "static/js/2.f458267a.chunk.js.map": "/static/js/2.f458267a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cd6364bd2eed34f6dab4a7bd7d99eb01.js": "/precache-manifest.cd6364bd2eed34f6dab4a7bd7d99eb01.js",
+    "precache-manifest.60b633968f1d459bdfa49154da311ccb.js": "/precache-manifest.60b633968f1d459bdfa49154da311ccb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.18585a14.chunk.css.map": "/static/css/2.18585a14.chunk.css.map",
-    "static/css/main.583ec91a.chunk.css.map": "/static/css/main.583ec91a.chunk.css.map",
-    "static/js/2.b31cc6aa.chunk.js.LICENSE": "/static/js/2.b31cc6aa.chunk.js.LICENSE",
+    "static/css/main.c45542a3.chunk.css.map": "/static/css/main.c45542a3.chunk.css.map",
+    "static/js/2.f458267a.chunk.js.LICENSE": "/static/js/2.f458267a.chunk.js.LICENSE",
     "static/media/Icon_Blue.PNG": "/static/media/Icon_Blue.fdb239da.PNG",
     "static/media/Icon_Green1.png": "/static/media/Icon_Green1.0d0d72ce.png",
     "static/media/Icon_Green2.png": "/static/media/Icon_Green2.527a358d.png",
@@ -31,6 +31,8 @@
     "static/media/cse_logo.jpg": "/static/media/cse_logo.333e9901.jpg",
     "static/media/google_logo.png": "/static/media/google_logo.10588e25.png",
     "static/media/kgi_logo.png": "/static/media/kgi_logo.cb2f1bce.png",
+    "static/media/linode_logo.png": "/static/media/linode_logo.8e18b8dc.png",
+    "static/media/mimiscafe_logo.png": "/static/media/mimiscafe_logo.c6542334.png",
     "static/media/overall_first_biohack_2019.jpg": "/static/media/overall_first_biohack_2019.a6b181cc.jpg",
     "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
     "static/media/wolfram_alpha_logo.png": "/static/media/wolfram_alpha_logo.b73bb104.png",
@@ -40,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.aa3c0ae8.js",
     "static/css/2.18585a14.chunk.css",
-    "static/js/2.b31cc6aa.chunk.js",
-    "static/css/main.583ec91a.chunk.css",
-    "static/js/main.59b1e3b1.chunk.js"
+    "static/js/2.f458267a.chunk.js",
+    "static/css/main.c45542a3.chunk.css",
+    "static/js/main.9a5b9b23.chunk.js"
   ]
 }
