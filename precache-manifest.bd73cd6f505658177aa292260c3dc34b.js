@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "360286ad5d3c435694ac7b5cfdf54832",
+    "revision": "8d0b6ec6a1a406f0111683bee0ceed91",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.18585a14.chunk.css"
   },
   {
-    "revision": "e0846641a5c0a48e605e",
+    "revision": "40a194c7629c1eef1fbb",
     "url": "/static/css/main.7a45ac09.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1099eeea.chunk.js.LICENSE"
   },
   {
-    "revision": "e0846641a5c0a48e605e",
-    "url": "/static/js/main.0411b472.chunk.js"
+    "revision": "40a194c7629c1eef1fbb",
+    "url": "/static/js/main.faa9bfdc.chunk.js"
   },
   {
     "revision": "ed2ecd470846a2269304",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Icon_Blue.fdb239da.PNG"
   },
   {
-    "revision": "527a358d35501603ead7576b4f5882cf",
-    "url": "/static/media/Icon_Green2.527a358d.png"
+    "revision": "5ce9de404a7d19da5c93e487fa46a7b3",
+    "url": "/static/media/Icon_Green2.5ce9de40.png"
   },
   {
     "revision": "19b98678812672326a1699751c176efb",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99763551a73d328d0af39dfc7217eb00",
     "url": "/static/media/amgen_logo.99763551.png"
+  },
+  {
+    "revision": "04b989c259a57d4c48ac427d10ba219e",
+    "url": "/static/media/asucr_logo.04b989c2.png"
   },
   {
     "revision": "8f0ded4b8f8f1e5916178cc617924ee5",
@@ -80,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bmes_logo.302e5d01.png"
   },
   {
-    "revision": "333e990132b55be326e9793fa4a7693b",
-    "url": "/static/media/cse_logo.333e9901.jpg"
+    "revision": "17a055d1f674f617226777118c195647",
+    "url": "/static/media/cse_logo.17a055d1.png"
   },
   {
     "revision": "10588e251874bf5c9655289014073350",
@@ -96,12 +100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linode_logo.8e18b8dc.png"
   },
   {
-    "revision": "c6542334a5249a43c4bf9009ffcbdd07",
-    "url": "/static/media/mimiscafe_logo.c6542334.png"
+    "revision": "f12c305ee4c62641fd1620f96dab1c30",
+    "url": "/static/media/mimiscafe_logo.f12c305e.png"
   },
   {
     "revision": "a6b181cc865c17d6c3664b776640d87d",
     "url": "/static/media/overall_first_biohack_2019.a6b181cc.jpg"
+  },
+  {
+    "revision": "7dfe71676b6f8b475d1ab21e285f9e75",
+    "url": "/static/media/sketch_logo.7dfe7167.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -120,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "b73bb1040628f115c1776f6caab71aea",
-    "url": "/static/media/wolfram_alpha_logo.b73bb104.png"
+    "revision": "1922f02ac9d14aaac11b35e28bb0e08d",
+    "url": "/static/media/wolfram_alpha_logo.1922f02a.png"
   },
   {
     "revision": "80516fdc6f9176800cf066dcf3b0a12e",
