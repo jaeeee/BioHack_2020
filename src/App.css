@@ -297,6 +297,9 @@ ul.announcement-list{
 .faq-question-text{
   max-width: 85%;
 }
+.faq-arrow-conatainter{
+  margin-right: 10px;
+}
 
 /*FOOTER SECTION*/
 .footer{
