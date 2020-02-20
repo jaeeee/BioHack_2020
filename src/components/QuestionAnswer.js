@@ -27,9 +27,11 @@ class QuestionAnswer extends Component {
 
 
 
-
-              {this.props.question}
               <FaArrowCircleDown className="faq-arrow" />
+
+              <div className="faq-question-text">
+                {this.props.question}
+              </div>
 
             </div>
             <div className="faq-answer">{this.props.answer}</div>
