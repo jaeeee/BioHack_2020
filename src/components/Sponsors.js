@@ -20,7 +20,7 @@ import sketchLogo from '../images/sponsorsLogos/sketch_logo.png';
 
 const sponsorsLeft = [
   { logo: googleLogo , link: "https://www.google.com/" },
-  { logo: amgenLogo, link: "https://www.amgen.com/"},
+  // { logo: amgenLogo, link: "https://www.amgen.com/"},
   { logo: cseLogo, link: "https://www1.cs.ucr.edu/"},
   { logo: kgiLogo, link: "https://www.kgi.edu/"},
   { logo: bmesLogo, link: "https://bmesucr.weebly.com/"},
