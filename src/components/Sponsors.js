@@ -5,7 +5,7 @@ import GreenVirus2 from '../images/Icon_Green2.png';
 import amgenLogo from '../images/sponsorsLogos/amgen_logo.png';
 import blackstoneLaunchpadUcrLogo from '../images/sponsorsLogos/blackstone_launchpad.png';
 import bmesLogo from '../images/sponsorsLogos/bmes_logo.png';
-import cseLogo from '../images/sponsorsLogos/cse_logo.jpg';
+import cseLogo from '../images/sponsorsLogos/cse_logo.png';
 import digitalOceanLogo from '../images/sponsorsLogos/digital_ocean_logo.png';
 import googleLogo from '../images/sponsorsLogos/google_logo.png';
 import kgiLogo from '../images/sponsorsLogos/kgi_logo.png';
