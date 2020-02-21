@@ -85,11 +85,11 @@ export class Projects extends Component {
 
   render() {
     return (
-        <div className="mt-5 section fadeIn" id="Winners2019">
-          <h1>
-            <GiPodium/> BioHack 2019 Winners
-          </h1>
-          <div className="mt-5 mb-5">
+      <div className="section">
+      <h1>
+        <GiPodium/> BioHack 2019 Winners
+      </h1>
+        <div className="section fadeIn" id="Winners2019">
             <SlideView responsiveSettings={this.state.responsiveSettings}>
               {projects.map((project, index) => (
                 <WinnerCard

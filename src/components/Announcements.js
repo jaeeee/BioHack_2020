@@ -4,13 +4,10 @@ import {MdAnnouncement} from "react-icons/md";
 class Announcements extends Component {
     render() {
         return (
-            <div className="mt-5 section fadeIn" id="Announcements">
-            <h1><MdAnnouncement/> Announcements</h1>
-            <div className="row">
-                <div className="col">
+          <div className="section fadeIn">
+          <h1><MdAnnouncement/> Announcements</h1>
+            <div className="content" id="Announcements">
                   <img src={CheeringVirus} className="virus" alt="Cheering Virus"/>
-                </div>
-                <div className="col">
                   <p>
                   <ul className="announcement-list">
                   <li>Priority registration opens on <strong>Monday, February 24th</strong>! Follow us on social media to be notified as soon as applications drop!</li>
@@ -19,11 +16,11 @@ class Announcements extends Component {
                   <strong>Operations: Tuesdays 10-11 a.m. in Bourns A171</strong>
                   <br />
                   <strong>Marketing: Wednesdays 4-5 p.m. in WCH 203</strong>
-                  < br /><br />
+                  < br />
+                  <br />
                   <li>Feel free to email <strong>biohack.ucr@gmail.com</strong> or contact Tammi Tang/John Shin on social media for further questions/inquiries!</li>
                   </ul>
                   </p>
-                </div>
                 </div>
             </div>
         );
