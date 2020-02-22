@@ -26,7 +26,7 @@ export class App extends Component {
       <div>
         <HashRouter>
           <div className="main-wrapper">
-            <nav className="sticky-top navbar navbar-expand-lg navigation-bar navbar-light">
+            <nav className="navbar navbar-expand-lg navigation-bar navbar-light">
               <button
                 className="navbar-toggler"
                 type="button"

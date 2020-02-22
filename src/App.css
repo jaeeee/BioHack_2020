@@ -1,27 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900&display=swap');
 
-.App {
-  text-align: center;
-}
-
 body{
   font-family: 'Raleway', sans-serif;
+
+  overflow-x: hidden;
+}
+body:before{
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
   background-image: url('./images/backdrop3.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden;
-}
-
-.main-wrapper p{
-  line-height: 2em;
-  font-size: 16pt;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /*NAVBAR SECTION*/
 .navigation-bar {
-  padding:10px 0;
-  padding-left: 30px;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  top: 0;
+  position: sticky;
   background-color: #fff;
   background-image: url('./images/backdrop.png');
   background-size: cover;
@@ -29,6 +38,7 @@ body{
   background-attachment: fixed;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
 }
+
 nav ul li a:hover{
     background-color:#f5cfcb;
     transition-duration: 200ms;
@@ -57,25 +67,30 @@ li > a.active {
   margin: 150px auto;
 }
 .hero h1{
+  color: #000 !important;
   font-weight: 900;
   font-size: 72pt;
   text-shadow: 8px 8px #dd6e42;
 }
 
 /*CONTENT GLOBAL SECTION*/
-.section{
-  max-width: 1000px;
-  margin: 0 auto;
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.section h1{
-  padding-top: 25px;
-  padding-bottom: 50px;
-  font-weight: 800 !important;
-  color: #dd6e42 !important;
+h1{
+  padding: 50px 0;
+  font-weight: 800;
+  color: #dd6e42;
   font-size: 36pt;
 }
-.row{
-  margin-bottom: 200px;
+p{
+  line-height: 2em;
+  font-size: 16pt;
+}
+img{
+  border-radius: 4.5px;
 }
 
 /*ANNOUNCEMENT LIST SECTION*/
@@ -85,15 +100,13 @@ ul.announcement-list{
 
 /*BIOHACK WINNER SECTION*/
 .biohack-winners{
-  max-height: 600px;
+  min-height: 100%;
   margin: 10px;
   padding: 30px;
   border-radius: 10px;
-  /* background: #f7e1da; */
   background: #fff;
   text-align: center;
   margin-bottom: 40px;
-  /* box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15); */
   box-shadow: 0 4px 2px -15px rgba(0, 0, 0, 0.15);
   transition-duration: 400ms, 400ms;
   transition-timing-function: ease-in-out, ease-in-out;
@@ -103,21 +116,15 @@ ul.announcement-list{
 .biohack-winners:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
 }
-.biohack-winners h4{
+h4{
   font-weight: bold;
+  font-size: 16pt;
   color: #dd6e42;
 }
 .biohack-winners p{
   color: #dd6e42;
   text-align: left;
   font-size: 12pt;
-}
-.biohack-pictures {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 40px;
 }
 .icons-card {
   margin-top: 30px;
@@ -135,27 +142,22 @@ ul.announcement-list{
   margin-left: auto;
   margin-right: auto;
 }
+.biohack-winners-modal{
+  padding: 0 30px;
+}
 .biohack-winners-modal .modal-content{
   font-size: 18px;
   background: #f7e1da;
   color: #dd6e42;
-  padding: 25px 25px 25px 25px;
+  padding: 20px;
   text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+  display: block;
 }
 .biohack-winners-card img{
-  height: 220px;
-  width: 320px;
+  height: 100%;
+  width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  border-radius: 5px;
-}
-.biohack-winners-card p{
-  font-family: 'Raleway', sans-serif;
+  margin: 30px auto;
 }
 .btn{
   background-color: #dd6e42;
@@ -168,24 +170,14 @@ ul.announcement-list{
   color: #dd6e42;
 }
 /* TODO: PROPERLY RESIZE IMAGES*/
-.biohack-picture-cont{
-  border-radius: 25px;
-  width: 400px;
-  height: 250px;
-}
-.biohack-picture-cont img{
-  max-width: 90%;
-  max-height: 90%;
-  margin: auto;
-  display: block;
-}
+
 .cardBody{
   font-size: 14pt;
 }
 
 /*CONTACT SECTION*/
 .contact {
-  display:inline-block;
+  display:inline-flex;
   vertical-align: middle;
 }
 .contact a{
@@ -230,8 +222,6 @@ ul.announcement-list{
   margin-right: auto;
   height : 500px;
   width: 500px;
-  position: sticky;
-  align-items: center;
 }
 .happy-virus{
   max-width: 300px;
@@ -245,11 +235,9 @@ ul.announcement-list{
 
 /*FAQ SECTION*/
 .faqs{
-  max-width: 100%;
+  min-width: 100%;
   color: #f7e1da;
-  width: 100%;
-  margin-bottom: 5px;
-  margin: 0 auto;
+
 }
 .faqs .faq {
   margin-bottom: 10px;
@@ -303,8 +291,8 @@ ul.announcement-list{
 
 /*FOOTER SECTION*/
 .footer{
+  margin: 50px auto;
   text-align: center;
-  margin-bottom: 50px;
 }
 .footer p{
   font-size: 10pt;
@@ -324,6 +312,11 @@ ul.announcement-list{
 }
 
 /*SPONSORS SECTION*/
+.content .sponsors-content{
+  justify-content: space-around;
+  flex-direction: column !important;
+
+}
 .sponsors_logo{
   max-width: 265px;
   padding: 30px;
@@ -341,13 +334,16 @@ ul.announcement-list{
   .section{
     padding: 0 30px;
   }
+  .content{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 24pt;
+  }
   .hero h1{
     font-size: 48pt;
   }
-  .section h1{
-    font-size: 24pt;
-  }
-  .main-wrapper p{
+  p{
     font-size: 12pt;
   }
   .virus {

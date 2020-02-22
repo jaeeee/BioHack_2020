@@ -49,12 +49,12 @@ const sponsorsBottom = [
 export class Sponsors extends Component {
   render() {
     return (
-      <div className="mt-5 section fadeIn" id="Sponsors">
-          <h1>
-            <FaUserFriends/> Sponsors
-          </h1>
-        <div className="row mt-5">
-          <div className="col">
+      <div className="section">
+      <h1>
+        <FaUserFriends/> Sponsors
+      </h1>
+      <div className="sponsor-content fadeIn" id="Sponsors">
+
             {
               sponsorsLeft.map((sponsor, index) => (
                 <Sponsor
@@ -64,8 +64,8 @@ export class Sponsors extends Component {
                 />
               ))
             }
-          </div>
-          <div className="col">
+
+
             {
               sponsorsTop.map((sponsor, index) => (
                 <Sponsor
@@ -89,8 +89,8 @@ export class Sponsors extends Component {
                 />
               ))
             }
-          </div>
-          <div className="col">
+
+
             {
               sponsorsRight.map((sponsor, index) => (
                 <Sponsor
@@ -100,9 +100,10 @@ export class Sponsors extends Component {
                 />
               ))
             }
-          </div>
+
         </div>
       </div>
+
     );
   }
 }

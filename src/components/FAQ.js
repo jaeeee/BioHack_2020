@@ -43,10 +43,10 @@ const questionAnswer = [
 export class FAQ extends Component {
     render() {
         return (
-            <div className="faqs section mt-5 mb-5 fadeIn" id="FAQ">
-              <h1 className="mb-5"><FaQuestion/> FAQs</h1>
-              <div className="row">
-                <div className="col-md-6">
+          <div className="section">
+          <h1><FaQuestion/> FAQs</h1>
+            <div className="faqs content fadeIn" id="FAQ">
+                <div>
                   {
                     questionAnswer.map((qa, index) => (
                       <QuestionAnswer
@@ -57,15 +57,9 @@ export class FAQ extends Component {
                     ))
                   }
                 </div>
-                <div className="col-md-6">
-                  <img src={BlueVirus} className="virus mt-5" alt="Thinking Virus"></img>
-                </div>
+                  <img src={BlueVirus} className="virus" alt="Thinking Virus"></img>
               </div>
             </div>
-              /* <div className="col-lg-6">
-                  <img src={BlueVirus} className="virus mt-5 ml-5" alt="Thinking Virus"></img>
-                  <img src={GreenVirus} className="virus mt-5 ml-5" alt="Thinking Virus"></img>
-              </div> */
         );
     }
 }

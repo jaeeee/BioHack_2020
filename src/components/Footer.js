@@ -7,7 +7,7 @@ export class Footer extends Component {
   render() {
     return (
         <div className="footer">
-          <div className="contact row mb-3">
+          <div className="contact">
           <img src={CheeringVirus} className="footer-virus" alt="Cheering Virus"/>
                 <a href="mailto:biohack.ucr@gmail.com"><FaEnvelope /></a>
                 <a href="https://www.facebook.com/UCRBioHack/"><FaFacebook/></a>
