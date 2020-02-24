@@ -36,14 +36,14 @@ class Home extends Component {
             WELCOME TO <span style={{ color: "#e2eb98" }}>BIOHACK</span>.
           </h1>
           <h3>16 MAY 2020</h3>
-          {/* <div className="row mt-5">
+          <div className="row mt-5">
             <div className="col">
               <p>Great! You made it just in time for priority registration!</p>
-              <a href="https://www.cognitoforms.com/UCRBioHack/BioHack2020HackerApplication">
+              <a href="https://bio12.typeform.com/to/EefUZ9">
                 <div className="btn">Click here to apply to BioHack</div>
               </a>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     );

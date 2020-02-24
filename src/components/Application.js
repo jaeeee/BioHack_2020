@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 
 import {FaLink} from 'react-icons/fa'
 
-  const myelement = (
-'<div class="cognito">'+
-'<script src="https://services.cognitoforms.com/s/3aXBwbmc0kmbwMAqTRUz3Q"></script>'+
-'<script>Cognito.load("forms", { id: "1" });</script>'+
-'</div>'
-);
+//   const myelement = (
+// '<div class="cognito">'+
+// '<script src="https://services.cognitoforms.com/s/3aXBwbmc0kmbwMAqTRUz3Q"></script>'+
+// '<script>Cognito.load("forms", { id: "1" });</script>'+
+// '</div>'
+// );
 
 //https://www.cognitoforms.com/UCRBioHack/BioHack2020HackerApplication
 
@@ -27,7 +27,7 @@ export class Application extends Component {
                     Great! You made it just in time for priority registration!
                   </p>
 
-                  <a href="https://www.cognitoforms.com/UCRBioHack/BioHack2020HackerApplication">
+                  <a href="https://bio12.typeform.com/to/EefUZ9">
                     <div className="btn">Click here to apply to BioHack</div>
                   </a>
                 </div>

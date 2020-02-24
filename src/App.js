@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import FAQ from "./components/FAQ";
 import About from "./components/About";
 import Sponsors from "./components/Sponsors";
-import {FaHome, FaDna, FaQuestion, FaUserFriends} from 'react-icons/fa'
+import {FaHome, FaDna, FaQuestion, FaUserFriends, FaLink} from 'react-icons/fa'
 import {MdAnnouncement} from "react-icons/md";
 import {GiPodium} from "react-icons/gi";
 import "slick-carousel/slick/slick.css";
@@ -82,13 +82,13 @@ export class App extends Component {
                       </span>
                     </NavLink>
                   </li>
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <NavLink className="nav-link" to="/apply">
                       <span className="nav-bar-option">
                         <FaLink /> Apply
                       </span>
                     </NavLink>
-                  </li> */}
+                  </li>
                   {/* ENABLE THIS WHEN PRIORITY REGISTRATION OPENS!! */}
                 </ul>
               </div>
