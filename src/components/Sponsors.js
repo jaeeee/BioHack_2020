@@ -17,6 +17,7 @@ import asucrLogo from '../images/sponsorsLogos/asucr_logo.png';
 import aspbLogo from '../images/sponsorsLogos/aspb_logo.png';
 import mimiscafeLogo from '../images/sponsorsLogos/mimiscafe_logo.png';
 import sketchLogo from '../images/sponsorsLogos/sketch_logo.png';
+import balsamicLogo from "../images/sponsorsLogos/balsamic_logo.png"
 
 const sponsorsLeft = [
   { logo: googleLogo , link: "https://www.google.com/" },
@@ -28,12 +29,20 @@ const sponsorsLeft = [
 ]
 
 const sponsorsRight = [
-  { logo: blackstoneLaunchpadUcrLogo, link: "https://techpartnerships.ucr.edu/launchpad-ucr"},
-  { logo: wolframAlphaLogo, link: "https://www.wolframalpha.com/"},
-  { logo: xyzLogo, link: "https://nic.xyz/"},
-  { logo: digitalOceanLogo, link: "https://www.digitalocean.com/products/droplets/?_campaign=DO_Dev_Awareness_G_Search_B_Generic_Alpha&_adgroup=digitalocean&_keyword=digitalocean&_device=c&_copytype=&_adposition=&_medium=brand_sem&_source=google&_dkitrig=&_2dkitrig=&gclid=CjwKCAiAx_DwBRAfEiwA3vwZYu739GJuAgP07NYQoZ4a54h2ARW_8tzFlhkBixgCiqAPYnQEUd3owBoCAtwQAvD_BwE"},
-  { logo: yerbaMateLogo, link: "https://guayaki.com/yerba-mate/"}
-]
+  {
+    logo: blackstoneLaunchpadUcrLogo,
+    link: "https://techpartnerships.ucr.edu/launchpad-ucr"
+  },
+  { logo: wolframAlphaLogo, link: "https://www.wolframalpha.com/" },
+  { logo: xyzLogo, link: "https://nic.xyz/" },
+  {
+    logo: digitalOceanLogo,
+    link:
+      "https://www.digitalocean.com/products/droplets/?_campaign=DO_Dev_Awareness_G_Search_B_Generic_Alpha&_adgroup=digitalocean&_keyword=digitalocean&_device=c&_copytype=&_adposition=&_medium=brand_sem&_source=google&_dkitrig=&_2dkitrig=&gclid=CjwKCAiAx_DwBRAfEiwA3vwZYu739GJuAgP07NYQoZ4a54h2ARW_8tzFlhkBixgCiqAPYnQEUd3owBoCAtwQAvD_BwE"
+  },
+  { logo: yerbaMateLogo, link: "https://guayaki.com/yerba-mate/" },
+  { logo: balsamicLogo, link: "https://balsamiq.com/" }
+];
 
 const sponsorsTop = [
   { logo: asucrLogo, link: "https://asucr.ucr.edu/" },
