@@ -19,16 +19,18 @@ import aspbLogo from '../images/sponsorsLogos/aspb_logo.png';
 import mimiscafeLogo from '../images/sponsorsLogos/mimiscafe_logo.png';
 import sketchLogo from '../images/sponsorsLogos/sketch_logo.png';
 import balsamicLogo from "../images/sponsorsLogos/balsamic_logo.png"
-import ootpLogo from "../images/sponsorsLogos/OOTP_logo.png"
+import ootpLogo from "../images/sponsorsLogos/OOTP_logo.png";
+import gCapLogo from "../images/sponsorsLogos/gcap_logo.png";
 
 const sponsorsLeft = [
-  { logo: googleLogo , link: "https://www.google.com/" },
+  { logo: googleLogo, link: "https://www.google.com/" },
   // { logo: amgenLogo, link: "https://www.amgen.com/"},
-  { logo: cseLogo, link: "https://www1.cs.ucr.edu/"},
-  { logo: kgiLogo, link: "https://www.kgi.edu/"},
-  { logo: bmesLogo, link: "https://bmesucr.weebly.com/"},
-  { logo: linodeLogo, link: "https://www.linode.com/"},
-]
+  { logo: cseLogo, link: "https://www1.cs.ucr.edu/" },
+  { logo: kgiLogo, link: "https://www.kgi.edu/" },
+  { logo: bmesLogo, link: "https://bmesucr.weebly.com/" },
+  { logo: linodeLogo, link: "https://www.linode.com/" },
+  { logo: gCapLogo, link: "http://www.gcapservices.com/" }
+];
 
 const sponsorsRight = [
   {
