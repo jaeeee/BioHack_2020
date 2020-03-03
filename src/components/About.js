@@ -12,7 +12,7 @@ export class About extends Component {
                 BioHack is a 12-hour <strong>health and medicine-themed hackathon</strong> hosted at University of California, Riverside.
                 <br />
                 As a beginner-friendly and multidisciplinary hackathon, BioHack aims to give students the <strong>opportunity</strong> to
-                 create innovatived personalized solutions and <strong>save lives with their projects</strong>.
+                 create innovative personalized solutions and <strong>save lives with their projects</strong>.
                  <br />
                 During BioHack, students will get the opportunity to form teams
                 and collaborate, <strong>attend workshops</strong> to learn about new technologies, and <strong>network</strong> with industry partners.
