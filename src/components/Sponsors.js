@@ -3,7 +3,8 @@ import Sponsor from "./Sponsor";
 import {FaUserFriends} from 'react-icons/fa';
 import GreenVirus2 from '../images/Icon_Green2.png';
 import amgenLogo from '../images/sponsorsLogos/amgen_logo.png';
-import blackstoneLaunchpadUcrLogo from '../images/sponsorsLogos/blackstone_launchpad.png';
+import blackstoneLaunchpadUcrLogo from "../images/sponsorsLogos/BLPT_Logo_Vertical_.png";
+// import blackstoneLaunchpadUcrLogo from '../images/sponsorsLogos/blackstone_launchpad.png';
 import bmesLogo from '../images/sponsorsLogos/bmes_logo.png';
 import cseLogo from '../images/sponsorsLogos/cse_logo.png';
 import digitalOceanLogo from '../images/sponsorsLogos/digital_ocean_logo.png';
@@ -18,6 +19,7 @@ import aspbLogo from '../images/sponsorsLogos/aspb_logo.png';
 import mimiscafeLogo from '../images/sponsorsLogos/mimiscafe_logo.png';
 import sketchLogo from '../images/sponsorsLogos/sketch_logo.png';
 import balsamicLogo from "../images/sponsorsLogos/balsamic_logo.png"
+import ootpLogo from "../images/sponsorsLogos/OOTP_logo.png"
 
 const sponsorsLeft = [
   { logo: googleLogo , link: "https://www.google.com/" },
@@ -41,7 +43,8 @@ const sponsorsRight = [
       "https://www.digitalocean.com/products/droplets/?_campaign=DO_Dev_Awareness_G_Search_B_Generic_Alpha&_adgroup=digitalocean&_keyword=digitalocean&_device=c&_copytype=&_adposition=&_medium=brand_sem&_source=google&_dkitrig=&_2dkitrig=&gclid=CjwKCAiAx_DwBRAfEiwA3vwZYu739GJuAgP07NYQoZ4a54h2ARW_8tzFlhkBixgCiqAPYnQEUd3owBoCAtwQAvD_BwE"
   },
   { logo: yerbaMateLogo, link: "https://guayaki.com/yerba-mate/" },
-  { logo: balsamicLogo, link: "https://balsamiq.com/" }
+  { logo: balsamicLogo, link: "https://balsamiq.com/" },
+  { logo: ootpLogo, link: "https://techpartnerships.ucr.edu/"}
 ];
 
 const sponsorsTop = [
