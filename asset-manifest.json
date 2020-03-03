@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d38166db.chunk.css",
-    "main.js": "/static/js/main.e59d59ae.chunk.js",
-    "main.js.map": "/static/js/main.e59d59ae.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.aa3c0ae8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.aa3c0ae8.js.map",
-    "static/css/2.18585a14.chunk.css": "/static/css/2.18585a14.chunk.css",
-    "static/js/2.e9c4af12.chunk.js": "/static/js/2.e9c4af12.chunk.js",
-    "static/js/2.e9c4af12.chunk.js.map": "/static/js/2.e9c4af12.chunk.js.map",
+    "main.css": "/static/css/main.32065fd3.chunk.css",
+    "main.js": "/static/js/main.3fff0814.chunk.js",
+    "main.js.map": "/static/js/main.3fff0814.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c9a4d5a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c9a4d5a.js.map",
+    "static/css/2.c60feeff.chunk.css": "/static/css/2.c60feeff.chunk.css",
+    "static/js/2.72f2c25c.chunk.js": "/static/js/2.72f2c25c.chunk.js",
+    "static/js/2.72f2c25c.chunk.js.map": "/static/js/2.72f2c25c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.65ffbe97b06393471e4000e789dcdc31.js": "/precache-manifest.65ffbe97b06393471e4000e789dcdc31.js",
+    "precache-manifest.dd4a9157405fd2e4f0da64dd97da0876.js": "/precache-manifest.dd4a9157405fd2e4f0da64dd97da0876.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.18585a14.chunk.css.map": "/static/css/2.18585a14.chunk.css.map",
-    "static/css/main.d38166db.chunk.css.map": "/static/css/main.d38166db.chunk.css.map",
-    "static/js/2.e9c4af12.chunk.js.LICENSE": "/static/js/2.e9c4af12.chunk.js.LICENSE",
+    "static/css/2.c60feeff.chunk.css.map": "/static/css/2.c60feeff.chunk.css.map",
+    "static/css/main.32065fd3.chunk.css.map": "/static/css/main.32065fd3.chunk.css.map",
+    "static/js/2.72f2c25c.chunk.js.LICENSE.txt": "/static/js/2.72f2c25c.chunk.js.LICENSE.txt",
     "static/media/BLPT_Logo_Vertical_.png": "/static/media/BLPT_Logo_Vertical_.729a3841.png",
     "static/media/Icon_Blue.PNG": "/static/media/Icon_Blue.fdb239da.PNG",
     "static/media/Icon_Green2.png": "/static/media/Icon_Green2.5ce9de40.png",
@@ -30,6 +30,7 @@
     "static/media/best_humanitarian_biohack_2019.jpg": "/static/media/best_humanitarian_biohack_2019.7c6052ef.jpg",
     "static/media/bmes_logo.png": "/static/media/bmes_logo.302e5d01.png",
     "static/media/cse_logo.png": "/static/media/cse_logo.17a055d1.png",
+    "static/media/gcap_logo.png": "/static/media/gcap_logo.3788303e.png",
     "static/media/google_logo.png": "/static/media/google_logo.10588e25.png",
     "static/media/kgi_logo.png": "/static/media/kgi_logo.cb2f1bce.png",
     "static/media/linode_logo.png": "/static/media/linode_logo.8e18b8dc.png",
@@ -42,10 +43,10 @@
     "static/media/yerba_mate_logo.png": "/static/media/yerba_mate_logo.ae921c3f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa3c0ae8.js",
-    "static/css/2.18585a14.chunk.css",
-    "static/js/2.e9c4af12.chunk.js",
-    "static/css/main.d38166db.chunk.css",
-    "static/js/main.e59d59ae.chunk.js"
+    "static/js/runtime-main.8c9a4d5a.js",
+    "static/css/2.c60feeff.chunk.css",
+    "static/js/2.72f2c25c.chunk.js",
+    "static/css/main.32065fd3.chunk.css",
+    "static/js/main.3fff0814.chunk.js"
   ]
 }
