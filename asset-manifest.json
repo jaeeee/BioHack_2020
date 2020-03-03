@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.1f5decba.chunk.css",
-    "main.js": "/static/js/main.af3bf082.chunk.js",
-    "main.js.map": "/static/js/main.af3bf082.chunk.js.map",
+    "main.js": "/static/js/main.b53714c4.chunk.js",
+    "main.js.map": "/static/js/main.b53714c4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa3c0ae8.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa3c0ae8.js.map",
     "static/css/2.18585a14.chunk.css": "/static/css/2.18585a14.chunk.css",
-    "static/js/2.902e7410.chunk.js": "/static/js/2.902e7410.chunk.js",
-    "static/js/2.902e7410.chunk.js.map": "/static/js/2.902e7410.chunk.js.map",
+    "static/js/2.3d95bc22.chunk.js": "/static/js/2.3d95bc22.chunk.js",
+    "static/js/2.3d95bc22.chunk.js.map": "/static/js/2.3d95bc22.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8b3b946703b084ad31671d712d8055c9.js": "/precache-manifest.8b3b946703b084ad31671d712d8055c9.js",
+    "precache-manifest.a2ae40a816875e5d93171965472060ec.js": "/precache-manifest.a2ae40a816875e5d93171965472060ec.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.18585a14.chunk.css.map": "/static/css/2.18585a14.chunk.css.map",
     "static/css/main.1f5decba.chunk.css.map": "/static/css/main.1f5decba.chunk.css.map",
-    "static/js/2.902e7410.chunk.js.LICENSE": "/static/js/2.902e7410.chunk.js.LICENSE",
+    "static/js/2.3d95bc22.chunk.js.LICENSE": "/static/js/2.3d95bc22.chunk.js.LICENSE",
+    "static/media/BLPT_Logo_Vertical_.png": "/static/media/BLPT_Logo_Vertical_.729a3841.png",
     "static/media/Icon_Blue.PNG": "/static/media/Icon_Blue.fdb239da.PNG",
     "static/media/Icon_Green2.png": "/static/media/Icon_Green2.5ce9de40.png",
     "static/media/Icon_Red.PNG": "/static/media/Icon_Red.19b98678.PNG",
     "static/media/Icon_Surprised.PNG": "/static/media/Icon_Surprised.be81d616.PNG",
+    "static/media/OOTP_logo.png": "/static/media/OOTP_logo.dfc3c0c5.png",
     "static/media/amgen_logo.png": "/static/media/amgen_logo.99763551.png",
     "static/media/aspb_logo.png": "/static/media/aspb_logo.a824b6b3.png",
     "static/media/asucr_logo.png": "/static/media/asucr_logo.04b989c2.png",
@@ -26,7 +28,6 @@
     "static/media/best_google_biohack_2019.jpg": "/static/media/best_google_biohack_2019.970fbfa9.jpg",
     "static/media/best_hardware_biohack_2019.jpg": "/static/media/best_hardware_biohack_2019.4f12b739.jpg",
     "static/media/best_humanitarian_biohack_2019.jpg": "/static/media/best_humanitarian_biohack_2019.7c6052ef.jpg",
-    "static/media/blackstone_launchpad.png": "/static/media/blackstone_launchpad.b56b27d7.png",
     "static/media/bmes_logo.png": "/static/media/bmes_logo.302e5d01.png",
     "static/media/cse_logo.png": "/static/media/cse_logo.17a055d1.png",
     "static/media/google_logo.png": "/static/media/google_logo.10588e25.png",
@@ -43,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.aa3c0ae8.js",
     "static/css/2.18585a14.chunk.css",
-    "static/js/2.902e7410.chunk.js",
+    "static/js/2.3d95bc22.chunk.js",
     "static/css/main.1f5decba.chunk.css",
-    "static/js/main.af3bf082.chunk.js"
+    "static/js/main.b53714c4.chunk.js"
   ]
 }
