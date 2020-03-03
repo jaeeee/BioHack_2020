@@ -29,7 +29,11 @@ const sponsorsLeft = [
   { logo: kgiLogo, link: "https://www.kgi.edu/" },
   { logo: bmesLogo, link: "https://bmesucr.weebly.com/" },
   { logo: linodeLogo, link: "https://www.linode.com/" },
-  { logo: gCapLogo, link: "http://www.gcapservices.com/" }
+  {
+    logo: gCapLogo,
+    link:
+      "https://www.gcapucr.com/?fbclid=IwAR1rYI8D2bqDUcGwkPN9gzUbyna9vxoVRJd1Gm9cgBkbZ-F0v-czHAiI6Zk"
+  }
 ];
 
 const sponsorsRight = [
