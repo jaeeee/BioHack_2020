@@ -82,13 +82,13 @@ export class App extends Component {
                       </span>
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <NavLink className="nav-link" to="/apply">
                       <span className="nav-bar-option">
                         <FaLink /> Apply
                       </span>
                     </NavLink>
-                  </li>
+                  </li> */}
                   {/* ENABLE THIS WHEN PRIORITY REGISTRATION OPENS!! */}
                 </ul>
               </div>
@@ -101,7 +101,7 @@ export class App extends Component {
               <Route path="/projects" component={Projects} />
               <Route path="/FAQs" component={FAQ} />
               <Route path="/sponsors" component={Sponsors} />
-              <Route path="/apply" component={Application} />
+              {/* <Route path="/apply" component={Application} /> */}
             </div>
 
             <Footer />
