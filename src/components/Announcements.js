@@ -9,9 +9,45 @@ class Announcements extends Component {
               <MdAnnouncement /> Announcements
             </h1>
             <div className="content" id="Announcements">
-              <img src={CheeringVirus} className="virus" alt="Cheering Virus" />
               <p>
+                {/* <img src={CheeringVirus} className="virus" alt="Cheering Virus" />   */}
                 <ul className="announcement-list">
+                  <li>
+                    {/* <strong> */}
+                      Welcome back to a new quarter! We hope you all had a
+                      wonderful spring break. In light of the COVID-19 pandemic,
+                      we are sad to announce that BioHack 2020 will be canceled.
+                      We were as excited as you were about this year’s
+                      hackathon, and are as equally disappointed about these
+                      turn of events. Though BioHack is not able to happen this
+                      year, we wanted to extend our sincere gratitude for your
+                      participation up to this point and thank you for your
+                      enthusiasm in this event. Here are some resources to help
+                      you navigate through this crisis:
+                      <br></br>
+                      <a
+                        href="https://www.cdc.gov/coronavirus/2019-ncov/index.html
+                    UCR"
+                      >
+                        Centers for Disease Control
+                      </a>
+                      <br></br>
+                      <a href="https://ehs.ucr.edu/coronavirus ">
+                        Campus Updates regarding COVID-19
+                      </a>
+                      <br></br>
+                      Once again, our sincerest apologies for this
+                      disappointment, and thank you very much for your
+                      participation thus far. We promise to bring you a bigger
+                      and better BioHack in 2021! If you have any questions or
+                      concerns, please feel free to email us or message Tammi or
+                      John through social media. Please stay safe and healthy,
+                      remember to practice social distancing, and be kind and
+                      considerate to your fellow peers during these uncertain
+                      times. Until then, we eagerly look forward to the day we
+                      can all gather again!
+                    {/* </strong> */}
+                  </li>
                   <li>
                     Priority registration for BioHack 2020 is now{" "}
                     <strong>open</strong>! The deadline for priority
